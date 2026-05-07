@@ -1,0 +1,10 @@
+title: Khazen Support
+description: Privacy Policy, Terms of Service, and Support for Khazen — Personal Finance
+url: "https://khassinx.github.io"
+baseurl: "/khazen-support"
+
+# Desactivar Jekyll completamente — servimos HTML estático
+plugins: []
+exclude:
+  - README.md
+  - .git

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0A1429">
+<meta name="description" content="Privacy Policy for Khazen — Personal Finance. The truth about your money, with privacy by design.">
+<title>Privacy Policy — Khazen</title>
+<style>
+:root {
+  --bg:        #0A1429;
+  --bg-elev:  rgba(255,255,255,0.04);
+  --border:   rgba(255,255,255,0.08);
+  --text:     #FFFFFF;
+  --text-mut: rgba(255,255,255,0.66);
+  --text-dim: rgba(255,255,255,0.45);
+  --teal:     #5EEAD4;
+  --purple:   #B891E8;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px 80px 20px;
+}
+.brand-mark {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+.brand-mark .logo {
+  width: 38px; height: 38px;
+  border-radius: 9px;
+  background: linear-gradient(135deg, var(--teal), var(--purple));
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700;
+  color: var(--bg);
+  font-size: 18px;
+  font-family: -apple-system, "SF Pro Rounded", "SF Pro Text", sans-serif;
+}
+.brand-mark .name {
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: -0.01em;
+}
+.brand-mark .tag {
+  color: var(--text-dim);
+  font-size: 13px;
+  margin-left: auto;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
+  font-family: -apple-system, "SF Pro Rounded", sans-serif;
+}
+.last-updated {
+  color: var(--text-dim);
+  font-size: 13px;
+  margin-bottom: 32px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: var(--teal);
+}
+p {
+  margin-bottom: 14px;
+  color: var(--text-mut);
+}
+ul {
+  list-style: none;
+  margin-bottom: 14px;
+}
+ul li {
+  padding-left: 18px;
+  position: relative;
+  color: var(--text-mut);
+  margin-bottom: 8px;
+}
+ul li::before {
+  content: "·";
+  color: var(--teal);
+  position: absolute;
+  left: 4px;
+  font-weight: 700;
+}
+strong { color: var(--text); font-weight: 600; }
+a {
+  color: var(--teal);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(94, 234, 212, 0.3);
+}
+a:hover { border-bottom-color: var(--teal); }
+.callout {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin: 16px 0;
+  font-size: 14px;
+  color: var(--text-mut);
+}
+.callout strong { color: var(--teal); }
+footer {
+  margin-top: 60px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 13px;
+  text-align: center;
+}
+footer a { color: var(--text-dim); border-bottom-color: transparent; }
+footer a:hover { color: var(--teal); }
+.nav-back {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--text-dim);
+  font-size: 13px;
+  border-bottom: none;
+}
+.nav-back:hover { color: var(--teal); border-bottom: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <a href="./" class="nav-back">← Khazen Support</a>
+  <div class="brand-mark">
+    <div class="logo">K</div>
+    <div class="name">Khazen</div>
+    <div class="tag">Personal Finance</div>
+  </div>
+
+  <h1>Privacy Policy</h1>
+  <div class="last-updated">Last updated: May 6, 2026</div>
+
+  <p>
+    Khazen is built around a simple promise: <strong>your money, your data, your rules</strong>.
+    This policy explains exactly what information Khazen collects, where it's stored,
+    and what we do with it. We tried to write it in plain English. If anything is
+    unclear, email <a href="mailto:hello@khassinx.com">hello@khassinx.com</a> and we'll explain.
+  </p>
+
+  <div class="callout">
+    <strong>The short version:</strong> your financial data lives in <em>your</em> iCloud
+    account, not on our servers. We never sell your data, never show ads, and never
+    use your transactions to train AI models. The only things we keep server-side
+    are minimal technical tokens needed to sync your bank data and notify your devices.
+  </div>
+
+  <h2>1. Information We Collect</h2>
+
+  <h3>1.1 Bank account data (via Plaid)</h3>
+  <p>
+    When you connect a bank account, Khazen uses Plaid to securely retrieve your
+    account information, balances, and transactions. We never see or store your bank
+    login credentials — those go directly between you and Plaid. Plaid passes us back
+    only the data needed to display your accounts: institution name, account type,
+    balance, and transaction history. See
+    <a href="https://plaid.com/legal/#end-user-privacy-policy" target="_blank" rel="noopener">Plaid's End User Privacy Policy</a>
+    for what they handle.
+  </p>
+
+  <h3>1.2 Subscription information</h3>
+  <p>
+    When you subscribe to Khazen Premium, Apple's StoreKit handles the transaction.
+    We receive a subscription status indicator and a transaction identifier from Apple
+    so the app knows your subscription is active. We never see your payment method,
+    name, or billing address.
+  </p>
+
+  <h3>1.3 Device identifiers</h3>
+  <p>
+    Khazen generates a random anonymous identifier (UUID) on first launch and stores
+    it in your iCloud Keychain. This identifier is used to associate your subscription
+    with your bank connections so we can clean up properly when you cancel. It is
+    never linked to your real identity.
+  </p>
+  <p>
+    We also receive a push notification token from Apple Push Notification service
+    so we can wake your app when there are new transactions to sync. The token can
+    only be used to send notifications to your device — it does not identify you
+    personally.
+  </p>
+
+  <h3>1.4 AI provider API keys (Bring Your Own Key)</h3>
+  <p>
+    If you choose to use AI features powered by Anthropic Claude, OpenAI, or Google
+    Gemini, you provide your own API key for those services. The key is stored
+    <strong>only on your device</strong> in iOS Keychain (with optional iCloud Keychain
+    sync between your own devices). It never reaches our servers. When you ask Khazen's
+    AI a question, the prompt goes directly from your device to your chosen provider.
+  </p>
+
+  <h3>1.5 Apple Intelligence (on-device)</h3>
+  <p>
+    Khazen uses Apple's on-device Foundation Models for transaction categorization
+    and merchant name cleanup. <strong>This happens entirely on your iPhone or iPad</strong> —
+    no transaction data is sent to Apple, to us, or to anyone else for AI processing.
+  </p>
+
+  <h3>1.6 Diagnostic information (only when you explicitly export)</h3>
+  <p>
+    The Settings → DevTools → Diagnostic Dump feature lets you generate a technical
+    report of the app state for support requests. This is generated locally on your
+    device and saved as a file you choose to share. We do not collect crash reports,
+    analytics, or any background telemetry.
+  </p>
+
+  <h2>2. Where Your Data Lives</h2>
+  <ul>
+    <li><strong>On your device:</strong> all of your financial data (accounts, transactions,
+        budgets, goals) is stored in your local SwiftData database and synced to iCloud.</li>
+    <li><strong>Your iCloud (CloudKit):</strong> when iCloud sync is enabled in Khazen Settings,
+        your financial data syncs across your iPhone, iPad, and Mac through your own iCloud
+        account. We have no access to your CloudKit container — only Apple and you do.</li>
+    <li><strong>iOS Keychain:</strong> Plaid access tokens, your Khazen anonymous UUID, and
+        any AI provider API keys you've added.</li>
+    <li><strong>Khazen backend (AWS Lambda + DynamoDB, US-East-1):</strong> we keep a small
+        amount of technical metadata server-side to make sync work:
+      <ul>
+        <li>Plaid access tokens (encrypted in transit, used to fetch your bank data on demand)</li>
+        <li>Device push tokens (so we can wake your app when banks send updates)</li>
+        <li>Subscription state and original transaction ID (for anti-billing-fraud cleanup
+            when you cancel)</li>
+        <li>Item-level health state (which connections need re-authentication)</li>
+      </ul>
+      We do <strong>not</strong> store your transactions, balances, or account details on
+      our servers. The Lambda fetches them from Plaid on demand and forwards them to your
+      device, then forgets them.
+    </li>
+    <li><strong>Plaid's servers:</strong> Plaid stores your bank credentials and transaction
+        history per their own data retention policy. You can revoke Plaid access at any time
+        from <a href="https://my.plaid.com/" target="_blank" rel="noopener">my.plaid.com</a>.</li>
+  </ul>
+
+  <h2>3. How We Use Your Data</h2>
+  <p>We use the information described above only to:</p>
+  <ul>
+    <li>Display your financial picture inside the app</li>
+    <li>Sync data across your own Apple devices via your iCloud</li>
+    <li>Notify you when there are new transactions to review</li>
+    <li>Clean up your bank connections when your subscription ends or is refunded
+        (so you're never charged by Plaid for an inactive account)</li>
+    <li>Provide customer support when you contact us</li>
+  </ul>
+  <p>We do not:</p>
+  <ul>
+    <li>Sell your data to anyone</li>
+    <li>Show ads inside Khazen</li>
+    <li>Use your transactions to train AI models (ours or anyone else's)</li>
+    <li>Share your data with marketers, data brokers, or analytics providers</li>
+    <li>Track you across other apps or websites</li>
+  </ul>
+
+  <h2>4. Third-Party Services</h2>
+  <p>
+    Khazen relies on a small set of third parties to function. Each handles your
+    data per their own privacy policy:
+  </p>
+  <ul>
+    <li><strong>Plaid Inc.</strong> — bank account aggregation —
+        <a href="https://plaid.com/legal/" target="_blank" rel="noopener">plaid.com/legal</a></li>
+    <li><strong>Apple Inc.</strong> — App Store, StoreKit, iCloud, Push Notifications —
+        <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a></li>
+    <li><strong>Amazon Web Services</strong> — Lambda hosting (US-East-1, Virginia) —
+        <a href="https://aws.amazon.com/privacy/" target="_blank" rel="noopener">aws.amazon.com/privacy</a></li>
+    <li><strong>Anthropic, OpenAI, Google AI</strong> — only if you opt in by providing
+        your own API key. Khazen never holds these keys server-side.</li>
+  </ul>
+
+  <h2>5. Your Rights</h2>
+  <p>You can, at any time:</p>
+  <ul>
+    <li><strong>Disconnect a bank</strong> from Settings → Connected Banks. This removes
+        the Plaid Item and stops all data fetching for that institution.</li>
+    <li><strong>Delete all your data</strong> from Settings → Delete My Data. This wipes
+        local + iCloud Khazen data, removes all Plaid Items, and clears your subscription
+        association from our backend.</li>
+    <li><strong>Export your data</strong> from Settings → Export. Provides a JSON dump of
+        all your transactions, accounts, budgets, and goals.</li>
+    <li><strong>Cancel your subscription</strong> from iOS Settings → your Apple ID →
+        Subscriptions. We're notified by Apple and clean up automatically.</li>
+  </ul>
+  <p>
+    If you're in the EU/UK (GDPR), California (CCPA), or any region with similar privacy
+    laws, you also have the right to request a copy of your data, ask for corrections,
+    or object to processing. Email <a href="mailto:hello@khassinx.com">hello@khassinx.com</a>
+    and we'll respond within 30 days.
+  </p>
+
+  <h2>6. Data Retention</h2>
+  <p>
+    When you delete your data through the app, we remove your record from our backend
+    within 24 hours. Plaid retains some information per their own retention policy; you
+    can request deletion directly with Plaid at <a href="https://my.plaid.com/" target="_blank" rel="noopener">my.plaid.com</a>.
+    Backup snapshots of our backend may retain historical data for up to 30 days for
+    disaster recovery purposes, after which it is permanently deleted.
+  </p>
+
+  <h2>7. Security</h2>
+  <p>
+    All communication between the Khazen app, our backend, Plaid, and Apple is encrypted
+    in transit using TLS 1.2+. Plaid access tokens stored in our backend are encrypted at
+    rest. We don't store passwords, payment methods, or government IDs anywhere — those
+    stay between you and the institutions that issued them.
+  </p>
+
+  <h2>8. Children's Privacy</h2>
+  <p>
+    Khazen is intended for users 18 years and older. We do not knowingly collect
+    information from anyone under 18. If you believe a child has provided us with
+    information, contact us and we'll delete it.
+  </p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>
+    If we change this policy, we'll update the "Last updated" date at the top and, if
+    the changes are material, notify you in the app or by email. The current version
+    always lives at this URL.
+  </p>
+
+  <h2>10. Contact</h2>
+  <p>
+    Khazen is built and maintained by <strong>KhassinX</strong> (Abraham Alonso), based
+    in Tampa, Florida, USA.
+    For privacy questions, data requests, or anything else, email
+    <a href="mailto:hello@khassinx.com">hello@khassinx.com</a>.
+  </p>
+
+  <footer>
+    <p>
+      <a href="./">Khazen Support</a> ·
+      <a href="./terms.html">Terms of Service</a> ·
+      <a href="./support.html">Support</a>
+    </p>
+    <p style="margin-top: 8px;">© 2026 KhassinX. All rights reserved.</p>
+  </footer>
+</div>
+</body>
+</html>
