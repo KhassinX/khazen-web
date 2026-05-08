@@ -155,7 +155,7 @@ footer a:hover { color: var(--teal); }
   </div>
 
   <h1>Privacy Policy</h1>
-  <div class="last-updated">Last updated: May 6, 2026</div>
+  <div class="last-updated">Last updated: May 7, 2026</div>
 
   <p>
     Khazen is built around a simple promise: <strong>your money, your data, your rules</strong>.
@@ -297,19 +297,110 @@ footer a:hover { color: var(--teal); }
   <ul>
     <li><strong>Disconnect a bank</strong> from Settings → Connected Banks. This removes
         the Plaid Item and stops all data fetching for that institution.</li>
-    <li><strong>Delete all your data</strong> from Settings → Delete My Data. This wipes
-        local + iCloud Khazen data, removes all Plaid Items, and clears your subscription
-        association from our backend.</li>
-    <li><strong>Export your data</strong> from Settings → Export. Provides a JSON dump of
-        all your transactions, accounts, budgets, and goals.</li>
+    <li><strong>Delete all your data</strong> from Settings → Reset Khazen → Delete My Data.
+        This wipes local + iCloud Khazen data (including the CloudKit zone), removes all
+        Plaid Items so they stop billing, and clears your subscription association from our
+        backend. Apple Guideline 5.1.1(v) compliant.</li>
+    <li><strong>Export your data</strong> from Settings → DevTools → Diagnostic Dump (or
+        future Export feature). Provides a structured dump of your transactions, accounts,
+        budgets, and goals.</li>
     <li><strong>Cancel your subscription</strong> from iOS Settings → your Apple ID →
-        Subscriptions. We're notified by Apple and clean up automatically.</li>
+        Subscriptions. Apple notifies us and we automatically disconnect your Plaid Items
+        so neither Apple nor Plaid keeps charging.</li>
+  </ul>
+
+  <h3>5.1 California Privacy Rights (CCPA / CPRA — 2026 update)</h3>
+  <p>
+    If you are a California resident, you have the following specific rights under the California
+    Consumer Privacy Act (as amended by the California Privacy Rights Act):
+  </p>
+  <ul>
+    <li><strong>Right to Know</strong> — request a copy of the personal information we have
+        collected about you in the last 12 months (or back to January 1, 2022 for data we still
+        retain, per the 2026 enhancement).</li>
+    <li><strong>Right to Delete</strong> — request deletion of your personal information.
+        You can do this in-app via Settings → Reset Khazen → Delete My Data, or by emailing us.</li>
+    <li><strong>Right to Correct</strong> — request correction of inaccurate personal information.</li>
+    <li><strong>Right to Opt-Out of Sale or Sharing</strong> — <strong>Khazen does not sell or
+        share your personal information for cross-context behavioral advertising.</strong> There
+        is nothing to opt out of, but California law requires us to state this clearly.</li>
+    <li><strong>Right to Limit Use of Sensitive Personal Information</strong> — your bank account
+        information is sensitive; we use it solely to provide the Khazen service and never for
+        marketing, profiling, or inference.</li>
+    <li><strong>Right to Non-Discrimination</strong> — we will not deny you service, charge
+        different prices, or provide a different quality of service for exercising these rights.</li>
+    <li><strong>Right to Opt-Out of Automated Decision-Making</strong> — Khazen uses automated
+        categorization (Plaid PFC + on-device Apple Intelligence) for transaction labels and
+        spending insights. These decisions are advisory only, never binding, never reported to
+        third parties, and you can override any category manually. You may also opt out of
+        AI-assisted categorization in Settings → Inteligencia.</li>
   </ul>
   <p>
-    If you're in the EU/UK (GDPR), California (CCPA), or any region with similar privacy
-    laws, you also have the right to request a copy of your data, ask for corrections,
-    or object to processing. Email <a href="mailto:hello@khassinx.com">hello@khassinx.com</a>
-    and we'll respond within 30 days.
+    <strong>Opt-Out Preference Signals (OPTS / Global Privacy Control):</strong> Effective
+    January 1, 2026, California honors browser-level opt-out signals such as Global Privacy
+    Control. Khazen is a native mobile app and does not engage in tracking that would trigger
+    OPTS, but we honor any explicit opt-out signal from your device or browser when relevant.
+  </p>
+  <p>
+    To exercise any California right, email <a href="mailto:hello@khassinx.com">hello@khassinx.com</a>
+    with the subject line "California Privacy Rights Request" and we will respond within
+    45 days (extendable by 45 days with notice, per CCPA).
+  </p>
+
+  <h3>5.2 European / UK Privacy Rights (GDPR / UK GDPR)</h3>
+  <p>
+    If you are in the European Economic Area (EEA), the United Kingdom, or Switzerland, you have
+    the following rights under the EU General Data Protection Regulation:
+  </p>
+  <ul>
+    <li><strong>Access</strong> — request a copy of your personal data (Art. 15 GDPR)</li>
+    <li><strong>Rectification</strong> — correct inaccurate data (Art. 16)</li>
+    <li><strong>Erasure / "Right to be forgotten"</strong> — request deletion (Art. 17). The
+        in-app Delete My Data flow fulfills this right automatically.</li>
+    <li><strong>Restriction</strong> — limit processing (Art. 18)</li>
+    <li><strong>Data Portability</strong> — receive your data in a machine-readable format
+        (Art. 20). The in-app Export feature fulfills this right.</li>
+    <li><strong>Object</strong> to processing based on legitimate interests (Art. 21)</li>
+    <li><strong>Lodge a complaint</strong> with your national supervisory authority (Art. 77)</li>
+  </ul>
+  <p>
+    <strong>Legal basis for processing:</strong> we process your data based on (a) the
+    <em>contract</em> we have with you to provide the Khazen service (GDPR Art. 6(1)(b)),
+    (b) your <em>consent</em> when you connect a bank or enable AI features (Art. 6(1)(a) /
+    Art. 9(2)(a) for sensitive financial data), and (c) our <em>legitimate interests</em> in
+    fraud prevention and service security (Art. 6(1)(f)).
+  </p>
+  <p>
+    Email <a href="mailto:hello@khassinx.com">hello@khassinx.com</a> to exercise any GDPR
+    right. We will respond within 30 days.
+  </p>
+
+  <h3>5.3 Open Banking Rights (CFPB Section 1033)</h3>
+  <p>
+    Under the Consumer Financial Protection Bureau's Section 1033 final rule, when you connect
+    a bank account through Plaid:
+  </p>
+  <ul>
+    <li><strong>Authorization</strong> — you explicitly authorize what data Khazen can access
+        through Plaid Link's consent screen.</li>
+    <li><strong>Revocation</strong> — you can revoke Khazen's access at any time by tapping
+        Disconnect in Settings → Connected Banks. This is sent to Plaid and propagates to
+        your bank within minutes.</li>
+    <li><strong>Reauthorization every 12 months</strong> — Section 1033 requires you to
+        re-authorize each bank connection annually. Khazen will prompt you when reauthorization
+        is needed and use Plaid's Update Mode to streamline the flow without losing your data.</li>
+    <li><strong>Data minimization</strong> — Plaid only shares the minimum scopes Khazen needs
+        (account info, balances, transactions). We do not request authentication credentials,
+        identity documents, or any data that is not directly used in the app.</li>
+  </ul>
+
+  <h3>5.4 Gramm-Leach-Bliley Act (GLBA Safeguards Rule)</h3>
+  <p>
+    Khazen handles "nonpublic personal information" (NPI) as defined under GLBA. We comply
+    with the GLBA Safeguards Rule by maintaining administrative, technical, and physical
+    safeguards including: TLS 1.2+ in transit, encryption at rest of access tokens, principle
+    of least privilege for backend access, regular security audits, and an incident response
+    plan. Our third-party processors (Plaid, Apple, AWS) are also GLBA-compliant.
   </p>
 
   <h2>6. Data Retention</h2>
@@ -329,21 +420,65 @@ footer a:hover { color: var(--teal); }
     stay between you and the institutions that issued them.
   </p>
 
-  <h2>8. Children's Privacy</h2>
+  <h2>8. International Data Transfers</h2>
+  <p>
+    Khazen's backend infrastructure (AWS Lambda + DynamoDB) is located in the United States
+    (US-East-1 region, Northern Virginia). If you access Khazen from outside the United States,
+    your information will be transferred to and processed in the U.S. By using Khazen, you
+    consent to this transfer.
+  </p>
+  <p>
+    For users in the EEA, UK, and Switzerland, we rely on the European Commission's
+    <strong>Standard Contractual Clauses (SCCs)</strong> for international transfers, where
+    applicable, with our processors. Our key sub-processors operate under the following
+    frameworks:
+  </p>
+  <ul>
+    <li><strong>Apple Inc.</strong> — Standard Contractual Clauses + Data Privacy Framework</li>
+    <li><strong>Amazon Web Services</strong> — Standard Contractual Clauses + EU Data
+        Boundary commitments</li>
+    <li><strong>Plaid Inc. / Plaid Financial Ltd. (UK)</strong> — Standard Contractual
+        Clauses + UK FCA registered Account Information Service Provider</li>
+  </ul>
+
+  <h2>9. Apple Privacy Nutrition Label Alignment</h2>
+  <p>
+    To match what Apple shows on the App Store, here is the precise breakdown of data
+    collected by Khazen:
+  </p>
+  <ul>
+    <li><strong>Data NOT linked to you (not used to track you):</strong>
+      <ul>
+        <li>Diagnostics — only when you explicitly export a diagnostic dump for support</li>
+      </ul>
+    </li>
+    <li><strong>Data linked to you (used to provide the service, NOT for tracking):</strong>
+      <ul>
+        <li>Financial Info — bank account info, transactions, balances (via Plaid)</li>
+        <li>Identifiers — anonymous device UUID generated on-device, push token</li>
+        <li>Purchases — subscription status (via Apple StoreKit)</li>
+        <li>Contact Info — only if you email us for support (hello@khassinx.com)</li>
+      </ul>
+    </li>
+    <li><strong>Data Used to Track You:</strong> NONE. Khazen does not implement
+        AppTrackingTransparency because we do not track users across apps or websites.</li>
+  </ul>
+
+  <h2>10. Children's Privacy</h2>
   <p>
     Khazen is intended for users 18 years and older. We do not knowingly collect
     information from anyone under 18. If you believe a child has provided us with
     information, contact us and we'll delete it.
   </p>
 
-  <h2>9. Changes to This Policy</h2>
+  <h2>11. Changes to This Policy</h2>
   <p>
     If we change this policy, we'll update the "Last updated" date at the top and, if
     the changes are material, notify you in the app or by email. The current version
     always lives at this URL.
   </p>
 
-  <h2>10. Contact</h2>
+  <h2>12. Contact</h2>
   <p>
     Khazen is built and maintained by <strong>KhassinX</strong> (Abraham Alonso), based
     in Tampa, Florida, USA.
