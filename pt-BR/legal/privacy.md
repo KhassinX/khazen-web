@@ -158,6 +158,16 @@ Podemos atualizar esta política quando:
 
 Mudanças materiais serão refletidas com uma nova "Data de vigência" no topo e um aviso aparecerá no app no próximo abrir.
 
+## Notificação de incidentes
+
+Diante de uma violação de dados confirmada que afete seus dados pessoais, vamos:
+
+- Notificar a autoridade de proteção de dados competente em até **72 horas** após confirmar o incidente, quando exigido pela legislação aplicável (incluindo o Art. 33 do RGPD para residentes na UE e a LGPD no Brasil).
+- Notificar os usuários afetados **sem atraso indevido** por meio de um alerta no app no próximo abrir e, se tivermos um e-mail registrado, por e-mail.
+- Publicar um post-mortem público neste site em `/security/incidents/` assim que a mitigação for concluída.
+
+Até a data, não sofremos nenhuma violação. Este compromisso estabelece o processo caso aconteça.
+
 ## Jurisdição
 
 Esta política é regida pelas leis do **Estado da Flórida, EUA**. As disputas são resolvidas nos tribunais do Estado da Flórida.
