@@ -1,0 +1,6 @@
+_site/
+.jekyll-cache/
+.jekyll-metadata
+*.swp
+.DS_Store
+node_modules/

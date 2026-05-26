@@ -1,0 +1,76 @@
+---
+layout: base
+title: Security & Responsible Disclosure
+description: How to responsibly report security vulnerabilities in Khazen.
+permalink: /security/
+lang: en
+canonical_en: /security/
+canonical_es: /es/security/
+canonical_pt-BR: /pt-BR/security/
+---
+
+<section class="section">
+  <div class="container container-narrow">
+    <h1>Security & Responsible Disclosure</h1>
+
+    <p class="lead">Khazen handles money. Security is not a feature for us — it is the foundation. If you have found a vulnerability, we appreciate your help in disclosing it responsibly.</p>
+
+    <p>This page covers Khazen specifically. For the umbrella policy covering all KhassinX apps, see <a href="https://khassinx.com/security/">khassinx.com/security</a>.</p>
+
+    <h2>Reporting</h2>
+    <p>
+      Email: <a href="mailto:security@khassinx.com">security@khassinx.com</a><br>
+      Machine-readable disclosure pointer: <a href="/.well-known/security.txt">/.well-known/security.txt</a> (RFC 9116)
+    </p>
+    <p class="text-secondary">Please include: a brief description, reproduction steps, the impact you observed, and any tooling or accounts you used. Do not include real bank credentials or production tokens.</p>
+
+    <h2>Scope</h2>
+    <ul>
+      <li><code>khazen.khassinx.com</code> (this website)</li>
+      <li><code>khazen-links.khassinx.com</code> (Universal Links + OAuth callback endpoint)</li>
+      <li>Khazen iOS / iPadOS / watchOS / macOS apps on the Apple App Store</li>
+      <li>The Khazen backend that proxies bank connections and serves push notifications</li>
+    </ul>
+
+    <h2>Out of scope</h2>
+    <ul>
+      <li>Third-party services (Apple App Store, the regulated financial data network we integrate with, your bank, your AI provider) — please report to them directly</li>
+      <li>Volumetric attacks (DDoS, brute force) — not vulnerabilities</li>
+      <li>Reports generated solely by automated scanners without reproducible proof of impact</li>
+      <li>Theoretical issues without a demonstrable attack path</li>
+      <li>Email spoofing on subdomains where we explicitly publish SPF/DKIM/DMARC</li>
+    </ul>
+
+    <h2>Response targets</h2>
+    <ul>
+      <li><strong>Acknowledgement</strong>: within five business days</li>
+      <li><strong>Initial triage</strong>: within fourteen days</li>
+      <li><strong>Coordinated disclosure timeline</strong>: agreed case by case, typically ninety days for non-critical, expedited for critical</li>
+    </ul>
+
+    <h2>Safe harbor</h2>
+    <p>We will not pursue legal action against researchers acting in good faith — investigating, reporting, and respecting our scope rules. This includes researchers accessing only data necessary to demonstrate the issue, not exfiltrating user data, and giving us reasonable time to remediate before public disclosure.</p>
+
+    <h2>Recognition</h2>
+    <p>We do not currently offer a monetary bug bounty. We offer:</p>
+    <ul>
+      <li>Public acknowledgement on this page (with your consent, in the form you prefer)</li>
+      <li>Direct communication with the engineering team handling the fix</li>
+      <li>A formal credit in our release notes when the fix ships</li>
+    </ul>
+
+    <h2>What we ask you to avoid</h2>
+    <ul>
+      <li>Do not access, modify, or delete data belonging to other users</li>
+      <li>Do not perform tests that degrade service quality for other users</li>
+      <li>Do not publicly disclose the vulnerability before we have had a reasonable chance to fix it</li>
+      <li>Do not test on production accounts of real customers without explicit written permission</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>
+      Security disclosure: <a href="mailto:security@khassinx.com">security@khassinx.com</a> (PGP key available on request)<br>
+      General contact: <a href="mailto:hello@khassinx.com">hello@khassinx.com</a>
+    </p>
+  </div>
+</section>
