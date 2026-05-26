@@ -1,10 +1,99 @@
-title: Khazen Support
-description: Privacy Policy, Terms of Service, and Support for Khazen — Personal Finance
-url: "https://khassinx.github.io"
-baseurl: "/khazen-support"
+title: Khazen
+description: A modern, private personal finance app for Apple platforms. On-device intelligence, honest pricing, native iPhone, iPad, Apple Watch, and Mac.
+url: https://khazen.khassinx.com
+lang: en
 
-# Desactivar Jekyll completamente — servimos HTML estático
-plugins: []
+# Layer 2 brand tokens (Khazen specific) extending Layer 3 primitives
+app_tokens_css: /assets/css/khazen-tokens.css
+
+# Favicons — single SVG monogram para Apple/modern browsers
+favicon_svg: /assets/favicons/favicon.svg
+apple_touch_icon: /assets/favicons/apple-touch-icon.svg
+
+# Navigation — keyed per locale. base.html selects via page.lang con fallback a 'en'.
+nav:
+  en:
+    - title: Legal
+      url: /legal/
+    - title: Support
+      url: /support/
+  es:
+    - title: Legal
+      url: /es/legal/
+    - title: Soporte
+      url: /es/support/
+  pt-BR:
+    - title: Legal
+      url: /pt-BR/legal/
+    - title: Suporte
+      url: /pt-BR/support/
+
+footer_nav:
+  en:
+    - title: Privacy
+      url: /legal/privacy/
+    - title: Terms
+      url: /legal/terms/
+    - title: Security
+      url: /security/
+    - title: Support
+      url: /support/
+    - title: Contact
+      url: mailto:hello@khassinx.com
+  es:
+    - title: Privacidad
+      url: /es/legal/privacy/
+    - title: Términos
+      url: /es/legal/terms/
+    - title: Seguridad
+      url: /es/security/
+    - title: Soporte
+      url: /es/support/
+    - title: Contacto
+      url: mailto:hello@khassinx.com
+  pt-BR:
+    - title: Privacidade
+      url: /pt-BR/legal/privacy/
+    - title: Termos
+      url: /pt-BR/legal/terms/
+    - title: Segurança
+      url: /pt-BR/security/
+    - title: Suporte
+      url: /pt-BR/support/
+    - title: Contato
+      url: mailto:hello@khassinx.com
+
+# UI strings (skip-link y "Part of ecosystem") consumed by base.html
+ui_strings:
+  en:
+    skip_to_main: "Skip to main content"
+    part_of_ecosystem_prefix: "Part of the"
+    part_of_ecosystem_label: "KhassinX ecosystem"
+    ecosystem_url: "https://khassinx.com"
+  es:
+    skip_to_main: "Saltar al contenido principal"
+    part_of_ecosystem_prefix: "Parte del"
+    part_of_ecosystem_label: "ecosistema KhassinX"
+    ecosystem_url: "https://khassinx.com/es/"
+  pt-BR:
+    skip_to_main: "Pular para o conteúdo principal"
+    part_of_ecosystem_prefix: "Parte do"
+    part_of_ecosystem_label: "ecossistema KhassinX"
+    ecosystem_url: "https://khassinx.com"
+
+# Jekyll config
+markdown: kramdown
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
 exclude:
   - README.md
-  - .git
+  - CONTRIBUTING.md
+  - .gitignore
+  - LICENSE
+
+# Jekyll por default ignora dotfiles/dotdirs. .well-known DEBE servirse
+# (RFC 9116 security.txt requiere path exacto /.well-known/security.txt).
+include:
+  - .well-known

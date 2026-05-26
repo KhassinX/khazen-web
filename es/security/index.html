@@ -1,0 +1,76 @@
+---
+layout: base
+title: Seguridad y divulgación responsable
+description: Cómo reportar de forma responsable vulnerabilidades de seguridad en Khazen.
+permalink: /es/security/
+lang: es
+canonical_en: /security/
+canonical_es: /es/security/
+canonical_pt-BR: /pt-BR/security/
+---
+
+<section class="section">
+  <div class="container container-narrow">
+    <h1>Seguridad y divulgación responsable</h1>
+
+    <p class="lead">Khazen maneja dinero. La seguridad no es una función para nosotros — es el cimiento. Si encontraste una vulnerabilidad, agradecemos tu ayuda para divulgarla de forma responsable.</p>
+
+    <p>Esta página cubre Khazen específicamente. Para la política general de todas las apps de KhassinX, ve <a href="https://khassinx.com/es/security/">khassinx.com/es/security</a>.</p>
+
+    <h2>Cómo reportar</h2>
+    <p>
+      Correo: <a href="mailto:security@khassinx.com">security@khassinx.com</a><br>
+      Apuntador legible por máquina: <a href="/.well-known/security.txt">/.well-known/security.txt</a> (RFC 9116)
+    </p>
+    <p class="text-secondary">Por favor incluye: una breve descripción, pasos para reproducir, el impacto que observaste, y cualquier herramienta o cuenta que usaste. No incluyas credenciales bancarias reales ni tokens de producción.</p>
+
+    <h2>Alcance</h2>
+    <ul>
+      <li><code>khazen.khassinx.com</code> (este sitio web)</li>
+      <li><code>khazen-links.khassinx.com</code> (endpoint de Universal Links + callback de OAuth)</li>
+      <li>Apps de Khazen para iOS / iPadOS / watchOS / macOS en el App Store</li>
+      <li>El backend de Khazen que retransmite conexiones bancarias y sirve notificaciones push</li>
+    </ul>
+
+    <h2>Fuera de alcance</h2>
+    <ul>
+      <li>Servicios de terceros (App Store de Apple, la red regulada de datos financieros con la que integramos, tu banco, tu proveedor de IA) — repórtalos directamente a ellos</li>
+      <li>Ataques volumétricos (DDoS, fuerza bruta) — no son vulnerabilidades</li>
+      <li>Reportes generados solo por escáneres automáticos sin prueba de impacto reproducible</li>
+      <li>Cuestiones teóricas sin un vector de ataque demostrable</li>
+      <li>Spoofing de correo en subdominios donde publicamos explícitamente SPF/DKIM/DMARC</li>
+    </ul>
+
+    <h2>Tiempos de respuesta</h2>
+    <ul>
+      <li><strong>Acuse de recibo</strong>: dentro de cinco días hábiles</li>
+      <li><strong>Triaje inicial</strong>: dentro de catorce días</li>
+      <li><strong>Cronograma de divulgación coordinada</strong>: acordado caso por caso, típicamente noventa días para no críticos, acelerado para críticos</li>
+    </ul>
+
+    <h2>Puerto seguro</h2>
+    <p>No emprenderemos acciones legales contra investigadores que actúen de buena fe — investigando, reportando y respetando nuestras reglas de alcance. Esto incluye acceder solo a los datos necesarios para demostrar el problema, no exfiltrar datos de usuarios y darnos tiempo razonable para remediar antes de la divulgación pública.</p>
+
+    <h2>Reconocimiento</h2>
+    <p>Actualmente no ofrecemos un programa monetario de bug bounty. Ofrecemos:</p>
+    <ul>
+      <li>Reconocimiento público en esta página (con tu consentimiento, en la forma que prefieras)</li>
+      <li>Comunicación directa con el equipo de ingeniería que maneja la solución</li>
+      <li>Crédito formal en nuestras notas de versión cuando la solución se publique</li>
+    </ul>
+
+    <h2>Qué te pedimos evitar</h2>
+    <ul>
+      <li>No accedas, modifiques ni borres datos de otros usuarios</li>
+      <li>No realices pruebas que degraden la calidad del servicio para otros usuarios</li>
+      <li>No divulgues públicamente la vulnerabilidad antes de que tengamos una oportunidad razonable de arreglarla</li>
+      <li>No pruebes en cuentas de producción de clientes reales sin permiso escrito explícito</li>
+    </ul>
+
+    <h2>Contacto</h2>
+    <p>
+      Divulgación de seguridad: <a href="mailto:security@khassinx.com">security@khassinx.com</a> (clave PGP disponible a solicitud)<br>
+      Contacto general: <a href="mailto:hello@khassinx.com">hello@khassinx.com</a>
+    </p>
+  </div>
+</section>

@@ -1,0 +1,191 @@
+/*
+ * khazen-tokens.css — Layer 2 Khazen brand tokens — Apple-canon + Khazen teal
+ *
+ * Per-app brand for khazen.khassinx.com. Distinct de Layer 1 KhassinX umbrella
+ * (umbrella es neutral Apple blue, Khazen es Apple-canon + teal signature).
+ *
+ * Source: ~/KhassinX/_template/BRAND_SYSTEM.md §3 (Layer 2 conventions)
+ * + §2 (Layer 1 Apple canon) + §4-5 (typography/spacing Apple-grade).
+ *
+ * Strategy: marketing pages Apple-canon light minimalism (Editor's Choice
+ * standard). Dark navy + multicolor logo stay inside the iOS app interior.
+ * Web site uses light backgrounds + Khazen teal as restraint accent.
+ *
+ * App brand signature:
+ *   - Teal vibrant   #00D4A8  (decorative — borders, hover backgrounds, accents)
+ *   - Teal CTA       #008569  (CTAs, links — WCAG AA on white: 4.56:1)
+ *   - Teal hover     #006A55  (active state, darker)
+ * Mirrors Swift `Color.khazenTeal` family in Khazen/UI/Theme/AppColors.swift.
+ */
+
+:root {
+  /* ─── Light theme (default — Apple canon) ─── */
+
+  /* Backgrounds (Apple canon) */
+  --khazen-bg: #FFFFFF;
+  --khazen-bg-section: #F5F5F7;
+  --khazen-bg-card: #FBFBFD;
+  --khazen-bg-elevated: #FFFFFF;
+
+  /* Text (Apple canon — exact apple.com values) */
+  --khazen-text-primary: #1D1D1F;
+  --khazen-text-secondary: #6E6E73;
+  --khazen-text-tertiary: #86868B;
+  --khazen-text-disabled: #C7C7CC;
+
+  /* Accents — Khazen teal signature */
+  --khazen-accent: #008569;            /* CTA/link teal (WCAG AA on white: 4.56:1) */
+  --khazen-accent-strong: #006A55;     /* Hover/active darker */
+  --khazen-accent-soft: #B5F0DC;       /* Subtle backgrounds */
+  --khazen-accent-bright: #00D4A8;     /* Vibrant decorative (borders, hover bg) */
+
+  /* Borders (Apple hairline) */
+  --khazen-border: #D2D2D7;
+  --khazen-border-strong: #86868B;
+
+  /* Status (Apple system colors) */
+  --khazen-success: #34C759;
+  --khazen-warning: #FF9500;
+  --khazen-danger: #FF3B30;
+
+  /* ─── Re-bind a Layer 1 token names so primitives.css works ─── */
+  --khassinx-bg: var(--khazen-bg);
+  --khassinx-bg-section: var(--khazen-bg-section);
+  --khassinx-bg-card: var(--khazen-bg-card);
+  --khassinx-bg-elevated: var(--khazen-bg-elevated);
+  --khassinx-text-primary: var(--khazen-text-primary);
+  --khassinx-text-secondary: var(--khazen-text-secondary);
+  --khassinx-text-tertiary: var(--khazen-text-tertiary);
+  --khassinx-text-disabled: var(--khazen-text-disabled);
+  --khassinx-accent: var(--khazen-accent);
+  --khassinx-accent-strong: var(--khazen-accent-strong);
+  --khassinx-accent-soft: var(--khazen-accent-soft);
+  --khassinx-border: var(--khazen-border);
+  --khassinx-border-strong: var(--khazen-border-strong);
+  --khassinx-success: var(--khazen-success);
+  --khassinx-warning: var(--khazen-warning);
+  --khassinx-danger: var(--khazen-danger);
+
+  /* Spacing scale (Layer 3 — Apple-grade) */
+  --space-xs: 4px;
+  --space-s: 8px;
+  --space-m: 12px;
+  --space-md: 16px;
+  --space-lg: 20px;
+  --space-xl: 24px;
+  --space-2xl: 32px;
+  --space-3xl: 48px;
+  --space-4xl: 64px;
+  --space-5xl: 96px;
+  --space-6xl: 128px;
+  --space-7xl: 160px;
+  --space-8xl: 200px;
+
+  /* Container max-widths (Apple-canonical 980px) */
+  --container-narrow: 640px;
+  --container-default: 980px;
+  --container-wide: 1280px;
+
+  /* Border radius (Apple soft corners) */
+  --radius-s: 6px;
+  --radius-m: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 22px;
+  --radius-2xl: 28px;
+  --radius-pill: 999px;
+
+  /* Typography (Layer 3 Apple canon) */
+  --font-stack: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", Menlo, Consolas, monospace;
+
+  --fs-display-xl: 80px;
+  --fs-display-l: 56px;
+  --fs-display-m: 40px;
+  --fs-display-s: 32px;
+  --fs-h1: 48px;
+  --fs-h2: 32px;
+  --fs-h3: 24px;
+  --fs-h4: 19px;
+  --fs-body-l: 19px;
+  --fs-body: 17px;
+  --fs-body-s: 15px;
+  --fs-caption: 13px;
+  --fs-micro: 11px;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --lh-display: 1.05;
+  --lh-heading: 1.1;
+  --lh-body: 1.47;
+  --lh-tight: 1.2;
+
+  --ls-display: -0.025em;
+  --ls-heading: -0.02em;
+  --ls-body: -0.005em;
+  --ls-caps: 0.05em;
+
+  /* Shadows (Apple-canonical subtle) */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.08);
+
+  /* Transitions (Apple-canonical 200-300ms ease) */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+}
+
+/* ─── Dark theme (auto via prefers-color-scheme) ─── */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Backgrounds (Apple OLED-optimized) */
+    --khazen-bg: #000000;
+    --khazen-bg-section: #1D1D1F;
+    --khazen-bg-card: #1D1D1F;
+    --khazen-bg-elevated: #2C2C2E;
+
+    /* Text (Apple canon dark) */
+    --khazen-text-primary: #F5F5F7;
+    --khazen-text-secondary: #A1A1A6;
+    --khazen-text-tertiary: #8E8E93;
+    --khazen-text-disabled: #48484A;
+
+    /* Accents — Khazen teal brighter for dark mode legibility */
+    --khazen-accent: #3EECBE;            /* Brighter teal CTA on black (WCAG AA dark: 9.5:1) */
+    --khazen-accent-strong: #00D4A8;     /* Hover slightly darker but still vibrant */
+    --khazen-accent-soft: #003D2E;       /* Subtle backgrounds (deep teal) */
+    --khazen-accent-bright: #7FFFD4;     /* Vibrant decorative */
+
+    /* Borders (Apple dark hairline) */
+    --khazen-border: #38383A;
+    --khazen-border-strong: #48484A;
+
+    /* Status (Apple system colors dark) */
+    --khazen-success: #30D158;
+    --khazen-warning: #FF9F0A;
+    --khazen-danger: #FF453A;
+
+    /* Re-bind a Layer 1 names */
+    --khassinx-bg: var(--khazen-bg);
+    --khassinx-bg-section: var(--khazen-bg-section);
+    --khassinx-bg-card: var(--khazen-bg-card);
+    --khassinx-bg-elevated: var(--khazen-bg-elevated);
+    --khassinx-text-primary: var(--khazen-text-primary);
+    --khassinx-text-secondary: var(--khazen-text-secondary);
+    --khassinx-text-tertiary: var(--khazen-text-tertiary);
+    --khassinx-text-disabled: var(--khazen-text-disabled);
+    --khassinx-accent: var(--khazen-accent);
+    --khassinx-accent-strong: var(--khazen-accent-strong);
+    --khassinx-accent-soft: var(--khazen-accent-soft);
+    --khassinx-border: var(--khazen-border);
+    --khassinx-border-strong: var(--khazen-border-strong);
+    --khassinx-success: var(--khazen-success);
+    --khassinx-warning: var(--khazen-warning);
+    --khassinx-danger: var(--khazen-danger);
+  }
+}
