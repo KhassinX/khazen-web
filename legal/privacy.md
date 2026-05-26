@@ -160,6 +160,16 @@ We may update this policy when:
 
 Material changes will be reflected with a new "Effective date" at the top, and a notice will appear in-app at next launch.
 
+## Breach notification
+
+In the event of a confirmed data breach affecting your personal data, we will:
+
+- Notify the relevant supervisory authority within **72 hours** of confirming the incident, where required by applicable law (including GDPR Art. 33 for EU residents).
+- Notify affected users **without undue delay** through an in-app alert at next launch and, where we have an email on file, via email.
+- Publish a public post-mortem on this site at `/security/incidents/` once mitigation is complete.
+
+We have not experienced a breach to date. This commitment establishes the process if one occurs.
+
 ## Jurisdiction
 
 This policy is governed by the laws of the **State of Florida, USA**. Disputes are resolved in the courts of the State of Florida.
