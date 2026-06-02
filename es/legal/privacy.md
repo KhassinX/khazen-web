@@ -170,7 +170,7 @@ Hasta la fecha no hemos sufrido ninguna vulneración. Este compromiso establece 
 
 ## Jurisdicción
 
-Esta política se rige por las leyes del **Estado de Florida, EE. UU.** Las disputas se resuelven en los tribunales del Estado de Florida.
+Esta política se rige por las leyes del lugar de registro del operador en los Estados Unidos. Las disputas se resuelven bajo esas leyes.
 
 ## Contacto
 

@@ -140,9 +140,9 @@ Material changes will be reflected with a new "Effective date" at the top. Conti
 
 ## 12. Governing law and disputes
 
-These terms are governed by the laws of the **State of Florida, USA**, without regard to conflict-of-laws principles.
+These terms are governed by the laws of the operator's registered place of business in the United States, without regard to conflict-of-laws principles.
 
-- Disputes shall be resolved in the courts of the State of Florida.
+- Disputes shall be resolved under those laws.
 - Both parties waive the right to a jury trial for any dispute.
 - You agree to attempt informal resolution by emailing hello@khassinx.com **before** pursuing formal legal action.
 
