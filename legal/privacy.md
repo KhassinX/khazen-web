@@ -172,7 +172,7 @@ We have not experienced a breach to date. This commitment establishes the proces
 
 ## Jurisdiction
 
-This policy is governed by the laws of the **State of Florida, USA**. Disputes are resolved in the courts of the State of Florida.
+This policy is governed by the laws of the operator's registered place of business in the United States. Disputes are resolved under those laws.
 
 ## Contact
 

@@ -138,9 +138,9 @@ Los cambios materiales se reflejarán con una nueva "Fecha de vigencia" arriba. 
 
 ## 12. Ley aplicable y disputas
 
-Estos términos se rigen por las leyes del **Estado de Florida, EE. UU.**, sin consideración a sus principios de conflicto de leyes.
+Estos términos se rigen por las leyes del lugar de registro del operador en los Estados Unidos, sin consideración a sus principios de conflicto de leyes.
 
-- Las disputas se resolverán en los tribunales del Estado de Florida.
+- Las disputas se resolverán bajo esas leyes.
 - Ambas partes renuncian al derecho a juicio con jurado para cualquier disputa.
 - Te comprometes a intentar una resolución informal escribiendo a hello@khassinx.com **antes** de iniciar acciones legales formales.
 
