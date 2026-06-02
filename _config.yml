@@ -6,9 +6,23 @@ lang: en
 # Layer 2 brand tokens (Khazen specific) extending Layer 3 primitives
 app_tokens_css: /assets/css/khazen-tokens.css
 
-# Favicons — single SVG monogram para Apple/modern browsers
+# Favicons — SVG monogram + PNG fallbacks
 favicon_svg: /assets/favicons/favicon.svg
-apple_touch_icon: /assets/favicons/apple-touch-icon.svg
+favicon_32: /assets/favicons/favicon-32.png
+favicon_16: /assets/favicons/favicon-16.png
+apple_touch_icon: /assets/favicons/apple-touch-icon.png
+
+# Social / Open Graph + Twitter
+og_site_name: Khazen
+og_image: /assets/og/og-image.png
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: "Khazen — private personal finance for Apple platforms"
+twitter_card: summary_large_image
+
+# JSON-LD (SoftwareApplication, publisher KhassinX)
+org:
+  name: KhassinX
 
 # Navigation — keyed per locale. base.html selects via page.lang con fallback a 'en'.
 nav:
