@@ -5,7 +5,6 @@ permalink: /es/legal/privacy/
 lang: es
 canonical_en: /legal/privacy/
 canonical_es: /es/legal/privacy/
-canonical_pt-BR: /pt-BR/legal/privacy/
 redirect_from:
   - /es/privacidad
   - /es/privacidad/
@@ -16,7 +15,7 @@ updated: 2026-05-26
 
 **Fecha de vigencia**: 2026-05-26
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
-**Desarrollador**: KhassinX
+**Desarrollador**: KhassinX LLC
 **Contacto**: hello@khassinx.com
 
 ---
@@ -77,19 +76,6 @@ Cuando tu dispositivo lo soporta, Khazen usa **Apple Intelligence (FoundationMod
 Este modelo corre **completamente en tu dispositivo**. Tus transacciones, saldos y contexto personal nunca salen de tu iPhone, iPad o Mac para el procesamiento de IA. No enviamos tus datos a OpenAI, Anthropic, Google ni a ningún servicio de IA de terceros. Tampoco tenemos un servidor de IA propio.
 
 Apple Intelligence requiere iOS 26+ y un dispositivo reciente. En dispositivos sin Apple Intelligence, las funciones de IA de Khazen se ocultan silenciosamente y el resto de la app funciona normal.
-
-## Asistentes externos de IA con tu propia clave (opcional)
-
-Khazen te permite conectar opcionalmente asistentes externos — Claude, ChatGPT o Gemini — usando **tus propias claves de API**.
-
-Cuando activas esto:
-
-- Tu clave de API se guarda solo en el Llavero (Keychain) de iOS en tu dispositivo. Nosotros nunca la recibimos.
-- Las peticiones van **directamente desde tu dispositivo al proveedor que elegiste** (Anthropic, OpenAI o Google). No pasan por nuestro backend.
-- Los datos que envíes a esos proveedores se rigen por **sus** políticas de privacidad y por los términos de tu cuenta de API.
-- Puedes desactivar los asistentes externos cuando quieras. Al desactivarlos, las peticiones salientes se detienen y la clave se elimina del Llavero.
-
-Tú decides qué proveedor — si alguno — ve tus datos fuera del modelo en el dispositivo de Apple.
 
 ## Suscripción y compras
 

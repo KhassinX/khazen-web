@@ -5,7 +5,6 @@ permalink: /legal/terms/
 lang: en
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-canonical_pt-BR: /pt-BR/legal/terms/
 redirect_from:
   - /TERMS_OF_USE
   - /TERMS_OF_USE/
@@ -18,7 +17,7 @@ updated: 2026-05-26
 
 **Effective date**: 2026-05-26
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
-**Developer**: KhassinX
+**Developer**: KhassinX LLC
 **Contact**: hello@khassinx.com
 
 By downloading, installing, or using Khazen, you agree to these terms. If you do not agree, please do not use the app.
@@ -62,7 +61,7 @@ Khazen is offered as a **subscription**. Pricing and tiers are displayed in-app 
 
 ## 5. AI-generated content
 
-Khazen uses **Apple Intelligence (FoundationModels)** on your device to generate financial summaries and insights. Optionally, you can connect external AI assistants (Claude, ChatGPT, or Gemini) using your own API keys.
+Khazen uses **Apple Intelligence (FoundationModels)** on your device to generate financial summaries and insights.
 
 AI-generated content may occasionally:
 
@@ -88,8 +87,8 @@ Attempts to circumvent subscription verification trigger our `Transaction.curren
 
 ## 7. Intellectual property
 
-- The Khazen app (code, design, assets, AI prompts, classification heuristics) is **copyright © 2026 KhassinX**, all rights reserved.
-- Khazen and the Khazen logo are unregistered trademarks of KhassinX.
+- The Khazen app (code, design, assets, AI prompts, classification heuristics) is **copyright © 2026 KhassinX LLC**, all rights reserved.
+- Khazen and the Khazen logo are unregistered trademarks of KhassinX LLC.
 - Apple, iPhone, iPad, Apple Watch, Mac, Apple Intelligence, App Store, and related marks are trademarks of Apple Inc.
 - Bank names and logos referenced inside the app remain the property of their respective owners and are used only to identify your accounts.
 
@@ -97,7 +96,7 @@ Attempts to circumvent subscription verification trigger our `Transaction.curren
 
 Khazen is provided **"AS IS"** without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, accuracy of information, or non-infringement.
 
-To the maximum extent permitted by law, KhassinX shall **not be liable** for any indirect, incidental, consequential, special, or punitive damages arising from your use of the app, including but not limited to:
+To the maximum extent permitted by law, KhassinX LLC shall **not be liable** for any indirect, incidental, consequential, special, or punitive damages arising from your use of the app, including but not limited to:
 
 - Financial decisions made based on insights shown in the app
 - Missed payments, overdraft fees, or other bank charges
@@ -109,7 +108,7 @@ Our total cumulative liability to you for any claim arising from these terms or 
 
 ## 9. Service availability and changes
 
-Khazen depends on third-party services (Apple platforms, the regulated financial data network, your bank, and your AI provider if you have configured one). Outages of any of these services may interrupt Khazen's functionality temporarily.
+Khazen depends on third-party services (Apple platforms, the regulated financial data network, and your bank). Outages of any of these services may interrupt Khazen's functionality temporarily.
 
 We may discontinue or materially modify features at any time. We will give reasonable notice for material changes that affect paying users. If Khazen is discontinued entirely, we will:
 
