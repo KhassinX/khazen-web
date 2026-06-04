@@ -5,7 +5,6 @@ permalink: /legal/
 lang: en
 canonical_en: /legal/
 canonical_es: /es/legal/
-canonical_pt-BR: /pt-BR/legal/
 updated: 2026-05-26
 ---
 
@@ -23,7 +22,7 @@ Short aliases: [/privacy/](/legal/privacy/) · [/terms/](/legal/terms/)
 
 ## Contact
 
-- **Developer**: KhassinX
+- **Developer**: KhassinX LLC
 - **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
 - **Security**: [security@khassinx.com](mailto:security@khassinx.com) ([disclosure policy](https://khassinx.com/security/))
 - **Privacy concerns**: [hello@khassinx.com](mailto:hello@khassinx.com)

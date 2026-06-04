@@ -16,7 +16,7 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   {% if site.og_site_name %}<meta property="og:site_name" content="{{ site.og_site_name }}">{% endif %}
   {%- assign og_locale = 'en_US' -%}
-  {%- if page.lang == 'es' -%}{%- assign og_locale = 'es_ES' -%}{%- elsif page.lang == 'pt-BR' -%}{%- assign og_locale = 'pt_BR' -%}{%- endif -%}
+  {%- if page.lang == 'es' -%}{%- assign og_locale = 'es_ES' -%}{%- endif -%}
   <meta property="og:locale" content="{{ og_locale }}">
   {% if site.og_image %}<meta property="og:image" content="{{ site.url }}{{ site.og_image }}">
   <meta property="og:image:width" content="{{ site.og_image_width | default: 1200 }}">
@@ -35,7 +35,6 @@
   {%- comment -%} hreflang for locale alternates (see WEB_PROPERTY_SPEC.md §7.5) {%- endcomment -%}
   {% if page.canonical_en %}<link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.canonical_en }}">{% endif %}
   {% if page.canonical_es %}<link rel="alternate" hreflang="es" href="{{ site.url }}{{ page.canonical_es }}">{% endif %}
-  {% assign canonical_ptbr = page['canonical_pt-BR'] %}{% if canonical_ptbr %}<link rel="alternate" hreflang="pt-BR" href="{{ site.url }}{{ canonical_ptbr }}">{% endif %}
   {% if page.canonical_en %}<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.canonical_en }}">{% endif %}
 
   {%- comment -%}
@@ -53,13 +52,13 @@
   {% if site.org %}<script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
+    "@type": "MobileApplication",
     "name": {{ site.title | jsonify }},
     "url": {{ site.url | jsonify }},
     "description": {{ site.description | jsonify }},
     "applicationCategory": "FinanceApplication",
     "operatingSystem": "iOS, iPadOS, macOS, watchOS",
-    "publisher": { "@type": "Organization", "name": {{ site.org.name | default: "KhassinX" | jsonify }}, "url": "https://khassinx.com" }
+    "publisher": { "@type": "Organization", "name": {{ site.org.name | default: "KhassinX" | jsonify }}, "legalName": "KhassinX LLC", "url": "https://khassinx.com" }
   }
   </script>{% endif %}
 
@@ -88,8 +87,6 @@
   {%- assign ui = site.ui_strings[lang_key] | default: site.ui_strings.en -%}
   {%- if lang_key == 'es' -%}
     {%- assign logo_home = '/es/' -%}
-  {%- elsif lang_key == 'pt-BR' -%}
-    {%- assign logo_home = '/pt-BR/' -%}
   {%- else -%}
     {%- assign logo_home = '/' -%}
   {%- endif -%}
@@ -116,32 +113,21 @@
 
   <footer class="site-footer">
     <div class="container">
-      <div>© {{ 'now' | date: '%Y' }} KhassinX</div>
+      <div>© {{ 'now' | date: '%Y' }} KhassinX LLC</div>
       <nav aria-label="Footer">
         {% for item in footer_items %}
           <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
         {% endfor %}
       </nav>
       <div class="locale-switcher" aria-label="Language selector">
-        {%- assign sw_canonical_ptbr = page['canonical_pt-BR'] | default: '/pt-BR/' -%}
         {%- if lang_key == 'es' -%}
           <a href="{{ page.canonical_en | default: '/' | relative_url }}" hreflang="en" lang="en">EN</a>
           <span aria-hidden="true">·</span>
           <span aria-current="true" lang="es">ES</span>
-          <span aria-hidden="true">·</span>
-          <a href="{{ sw_canonical_ptbr | relative_url }}" hreflang="pt-BR" lang="pt-BR">PT-BR</a>
-        {%- elsif lang_key == 'pt-BR' -%}
-          <a href="{{ page.canonical_en | default: '/' | relative_url }}" hreflang="en" lang="en">EN</a>
-          <span aria-hidden="true">·</span>
-          <a href="{{ page.canonical_es | default: '/es/' | relative_url }}" hreflang="es" lang="es">ES</a>
-          <span aria-hidden="true">·</span>
-          <span aria-current="true" lang="pt-BR">PT-BR</span>
         {%- else -%}
           <span aria-current="true" lang="en">EN</span>
           <span aria-hidden="true">·</span>
           <a href="{{ page.canonical_es | default: '/es/' | relative_url }}" hreflang="es" lang="es">ES</a>
-          <span aria-hidden="true">·</span>
-          <a href="{{ sw_canonical_ptbr | relative_url }}" hreflang="pt-BR" lang="pt-BR">PT-BR</a>
         {%- endif -%}
       </div>
       <small>{{ ui.part_of_ecosystem_prefix }} <a href="{{ ui.ecosystem_url }}">{{ ui.part_of_ecosystem_label }}</a></small>

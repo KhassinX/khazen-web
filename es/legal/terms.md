@@ -5,7 +5,6 @@ permalink: /es/legal/terms/
 lang: es
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-canonical_pt-BR: /pt-BR/legal/terms/
 redirect_from:
   - /es/terminos
   - /es/terminos/
@@ -16,7 +15,7 @@ updated: 2026-05-26
 
 **Fecha de vigencia**: 2026-05-26
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
-**Desarrollador**: KhassinX
+**Desarrollador**: KhassinX LLC
 **Contacto**: hello@khassinx.com
 
 Al descargar, instalar o usar Khazen, aceptas estos términos. Si no estás de acuerdo, por favor no uses la app.
@@ -60,7 +59,7 @@ Khazen se ofrece como **suscripción**. Los precios y planes se muestran en la a
 
 ## 5. Contenido generado por IA
 
-Khazen usa **Apple Intelligence (FoundationModels)** en tu dispositivo para generar resúmenes y perspectivas financieras. Opcionalmente, puedes conectar asistentes externos (Claude, ChatGPT o Gemini) usando tus propias claves de API.
+Khazen usa **Apple Intelligence (FoundationModels)** en tu dispositivo para generar resúmenes y perspectivas financieras.
 
 El contenido generado por IA puede ocasionalmente:
 
@@ -86,8 +85,8 @@ Los intentos de eludir la verificación de la suscripción activan nuestra verif
 
 ## 7. Propiedad intelectual
 
-- La app de Khazen (código, diseño, recursos, prompts de IA, heurísticas de clasificación) es **copyright © 2026 KhassinX**, todos los derechos reservados.
-- Khazen y el logo de Khazen son marcas no registradas de KhassinX.
+- La app de Khazen (código, diseño, recursos, prompts de IA, heurísticas de clasificación) es **copyright © 2026 KhassinX LLC**, todos los derechos reservados.
+- Khazen y el logo de Khazen son marcas no registradas de KhassinX LLC.
 - Apple, iPhone, iPad, Apple Watch, Mac, Apple Intelligence, App Store y marcas relacionadas son marcas de Apple Inc.
 - Los nombres y logos de bancos referenciados dentro de la app siguen siendo propiedad de sus respectivos dueños y se usan solo para identificar tus cuentas.
 
@@ -95,7 +94,7 @@ Los intentos de eludir la verificación de la suscripción activan nuestra verif
 
 Khazen se proporciona **"TAL CUAL"** sin garantía de ningún tipo, expresa o implícita, incluidas pero no limitadas a garantías de comerciabilidad, idoneidad para un propósito particular, exactitud de la información o no infracción.
 
-Hasta el máximo permitido por la ley, KhassinX **no será responsable** de ningún daño indirecto, incidental, consecuente, especial o punitivo que surja del uso de la app, incluyendo pero no limitado a:
+Hasta el máximo permitido por la ley, KhassinX LLC **no será responsable** de ningún daño indirecto, incidental, consecuente, especial o punitivo que surja del uso de la app, incluyendo pero no limitado a:
 
 - Decisiones financieras tomadas con base en perspectivas mostradas en la app
 - Pagos atrasados, comisiones por descubierto u otros cargos bancarios
@@ -107,7 +106,7 @@ Nuestra responsabilidad acumulada total contigo por cualquier reclamo derivado d
 
 ## 9. Disponibilidad del servicio y cambios
 
-Khazen depende de servicios de terceros (las plataformas de Apple, la red regulada de datos financieros, tu banco y tu proveedor de IA si configuraste alguno). Las interrupciones de cualquiera de estos servicios pueden afectar temporalmente la funcionalidad de Khazen.
+Khazen depende de servicios de terceros (las plataformas de Apple, la red regulada de datos financieros y tu banco). Las interrupciones de cualquiera de estos servicios pueden afectar temporalmente la funcionalidad de Khazen.
 
 Podemos descontinuar o modificar materialmente funciones en cualquier momento. Daremos aviso razonable para cambios materiales que afecten a usuarios de pago. Si Khazen se descontinúa por completo:
 
