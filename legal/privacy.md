@@ -5,7 +5,6 @@ permalink: /legal/privacy/
 lang: en
 canonical_en: /legal/privacy/
 canonical_es: /es/legal/privacy/
-canonical_pt-BR: /pt-BR/legal/privacy/
 redirect_from:
   - /PRIVACY_POLICY
   - /PRIVACY_POLICY/
@@ -18,7 +17,7 @@ updated: 2026-05-26
 
 **Effective date**: 2026-05-26
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
-**Developer**: KhassinX
+**Developer**: KhassinX LLC
 **Contact**: hello@khassinx.com
 
 ---
@@ -79,19 +78,6 @@ When supported by your device, Khazen uses **Apple Intelligence (FoundationModel
 This model runs **entirely on your device**. Your transactions, balances, and personal context never leave your iPhone, iPad, or Mac for AI inference. We do not send your data to OpenAI, Anthropic, Google, or any third-party AI service. We do not have an AI server of our own either.
 
 Apple Intelligence eligibility requires iOS 26+ and a recent device. On devices without Apple Intelligence, Khazen's AI features are silently hidden, and the rest of the app works normally.
-
-## Bring-your-own AI keys (optional)
-
-Khazen lets you optionally connect external AI assistants — Claude, ChatGPT, or Gemini — using **your own API keys**.
-
-When you enable this:
-
-- Your API key is stored in the iOS Keychain on your device only. We never receive it.
-- The requests go **directly from your device to your chosen provider** (Anthropic, OpenAI, or Google). They do not pass through our backend.
-- The data you send to those providers is governed by **their** privacy policies and any terms attached to your API account.
-- You can disable bring-your-own AI at any time. Disabling immediately stops outbound requests and removes the key from Keychain.
-
-You are in control of which provider — if any — sees your data outside Apple's on-device model.
 
 ## Subscription and purchases
 

@@ -36,11 +36,6 @@ nav:
       url: /es/legal/
     - title: Soporte
       url: /es/support/
-  pt-BR:
-    - title: Legal
-      url: /pt-BR/legal/
-    - title: Suporte
-      url: /pt-BR/support/
 
 footer_nav:
   en:
@@ -65,17 +60,6 @@ footer_nav:
       url: /es/support/
     - title: Contacto
       url: mailto:hello@khassinx.com
-  pt-BR:
-    - title: Privacidade
-      url: /pt-BR/legal/privacy/
-    - title: Termos
-      url: /pt-BR/legal/terms/
-    - title: Segurança
-      url: /pt-BR/security/
-    - title: Suporte
-      url: /pt-BR/support/
-    - title: Contato
-      url: mailto:hello@khassinx.com
 
 # UI strings (skip-link y "Part of ecosystem") consumed by base.html
 ui_strings:
@@ -89,11 +73,6 @@ ui_strings:
     part_of_ecosystem_prefix: "Parte del"
     part_of_ecosystem_label: "ecosistema KhassinX"
     ecosystem_url: "https://khassinx.com/es/"
-  pt-BR:
-    skip_to_main: "Pular para o conteúdo principal"
-    part_of_ecosystem_prefix: "Parte do"
-    part_of_ecosystem_label: "ecossistema KhassinX"
-    ecosystem_url: "https://khassinx.com"
 
 # Jekyll config
 markdown: kramdown
