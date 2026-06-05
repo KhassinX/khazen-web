@@ -15,7 +15,7 @@ updated: 2026-05-26
 
 **Fecha de vigencia**: 2026-05-26
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
-**Desarrollador**: KhassinX LLC
+**Desarrollador**: KHASSINX LLC
 **Contacto**: hello@khassinx.com
 
 ---
