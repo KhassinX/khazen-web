@@ -16,9 +16,7 @@ Source for **khazen.khassinx.com** — the public web property for [Khazen](http
 
 ## Stack
 
-GitHub Pages (Jekyll) → Cloudflare proxy → `khazen.khassinx.com`. Custom domain via `CNAME` file. SSL via Cloudflare Full (strict).
-
-Canonical spec: `~/KhassinX/_template/web/WEB_PROPERTY_SPEC.md`.
+Static site (Jekyll), served over HTTPS at `khazen.khassinx.com`.
 
 ## Localization
 
