@@ -15,9 +15,11 @@ apple_touch_icon: /assets/favicons/apple-touch-icon.png
 # Social / Open Graph + Twitter
 og_site_name: Khazen
 og_image: /assets/og/og-image.png
+og_image_es: /assets/og/og-image-es.png
 og_image_width: 1200
 og_image_height: 630
 og_image_alt: "Khazen — private personal finance for Apple platforms"
+og_image_alt_es: "Khazen — finanzas personales privadas para plataformas Apple"
 twitter_card: summary_large_image
 
 # JSON-LD (SoftwareApplication, publisher KhassinX)

@@ -15,7 +15,7 @@ updated: 2026-05-26
 
 **Fecha de vigencia**: 2026-05-26
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
-**Desarrollador**: KhassinX LLC
+**Desarrollador**: KHASSINX LLC
 **Contacto**: hello@khassinx.com
 
 Al descargar, instalar o usar Khazen, aceptas estos términos. Si no estás de acuerdo, por favor no uses la app.
@@ -85,8 +85,8 @@ Los intentos de eludir la verificación de la suscripción activan nuestra verif
 
 ## 7. Propiedad intelectual
 
-- La app de Khazen (código, diseño, recursos, prompts de IA, heurísticas de clasificación) es **copyright © 2026 KhassinX LLC**, todos los derechos reservados.
-- Khazen y el logo de Khazen son marcas no registradas de KhassinX LLC.
+- La app de Khazen (código, diseño, recursos, prompts de IA, heurísticas de clasificación) es **copyright © 2026 KHASSINX LLC**, todos los derechos reservados.
+- Khazen y el logo de Khazen son marcas no registradas de KHASSINX LLC.
 - Apple, iPhone, iPad, Apple Watch, Mac, Apple Intelligence, App Store y marcas relacionadas son marcas de Apple Inc.
 - Los nombres y logos de bancos referenciados dentro de la app siguen siendo propiedad de sus respectivos dueños y se usan solo para identificar tus cuentas.
 
@@ -94,7 +94,7 @@ Los intentos de eludir la verificación de la suscripción activan nuestra verif
 
 Khazen se proporciona **"TAL CUAL"** sin garantía de ningún tipo, expresa o implícita, incluidas pero no limitadas a garantías de comerciabilidad, idoneidad para un propósito particular, exactitud de la información o no infracción.
 
-Hasta el máximo permitido por la ley, KhassinX LLC **no será responsable** de ningún daño indirecto, incidental, consecuente, especial o punitivo que surja del uso de la app, incluyendo pero no limitado a:
+Hasta el máximo permitido por la ley, KHASSINX LLC **no será responsable** de ningún daño indirecto, incidental, consecuente, especial o punitivo que surja del uso de la app, incluyendo pero no limitado a:
 
 - Decisiones financieras tomadas con base en perspectivas mostradas en la app
 - Pagos atrasados, comisiones por descubierto u otros cargos bancarios
