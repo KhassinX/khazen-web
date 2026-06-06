@@ -17,7 +17,7 @@ updated: 2026-05-26
 
 **Effective date**: 2026-05-26
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
-**Developer**: KhassinX LLC
+**Developer**: KHASSINX LLC
 **Contact**: hello@khassinx.com
 
 ---

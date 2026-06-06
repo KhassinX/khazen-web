@@ -17,7 +17,7 @@ updated: 2026-05-26
 
 **Effective date**: 2026-05-26
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
-**Developer**: KhassinX LLC
+**Developer**: KHASSINX LLC
 **Contact**: hello@khassinx.com
 
 By downloading, installing, or using Khazen, you agree to these terms. If you do not agree, please do not use the app.
@@ -87,8 +87,8 @@ Attempts to circumvent subscription verification trigger our `Transaction.curren
 
 ## 7. Intellectual property
 
-- The Khazen app (code, design, assets, AI prompts, classification heuristics) is **copyright © 2026 KhassinX LLC**, all rights reserved.
-- Khazen and the Khazen logo are unregistered trademarks of KhassinX LLC.
+- The Khazen app (code, design, assets, AI prompts, classification heuristics) is **copyright © 2026 KHASSINX LLC**, all rights reserved.
+- Khazen and the Khazen logo are unregistered trademarks of KHASSINX LLC.
 - Apple, iPhone, iPad, Apple Watch, Mac, Apple Intelligence, App Store, and related marks are trademarks of Apple Inc.
 - Bank names and logos referenced inside the app remain the property of their respective owners and are used only to identify your accounts.
 
@@ -96,7 +96,7 @@ Attempts to circumvent subscription verification trigger our `Transaction.curren
 
 Khazen is provided **"AS IS"** without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, accuracy of information, or non-infringement.
 
-To the maximum extent permitted by law, KhassinX LLC shall **not be liable** for any indirect, incidental, consequential, special, or punitive damages arising from your use of the app, including but not limited to:
+To the maximum extent permitted by law, KHASSINX LLC shall **not be liable** for any indirect, incidental, consequential, special, or punitive damages arising from your use of the app, including but not limited to:
 
 - Financial decisions made based on insights shown in the app
 - Missed payments, overdraft fees, or other bank charges
