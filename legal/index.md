@@ -5,7 +5,7 @@ permalink: /legal/
 lang: en
 canonical_en: /legal/
 canonical_es: /es/legal/
-updated: 2026-05-26
+updated: 2026-06-09
 ---
 
 # Legal
@@ -14,6 +14,7 @@ Public legal documents for **[Khazen](https://apps.apple.com/app/khazen/id676161
 
 - **[Privacy Policy](/legal/privacy/)** — what data Khazen handles and how
 - **[Terms of Use](/legal/terms/)** — terms of using the app and its subscription
+- **[Your Privacy Rights](https://khassinx.com/legal/your-rights/)** — region-specific rights (GDPR, UK, Spain, CCPA, and more) and how to exercise them
 - **[Security & Responsible Disclosure](/security/)** — how to report vulnerabilities
 
 Short aliases: [/privacy/](/legal/privacy/) · [/terms/](/legal/terms/)
@@ -22,10 +23,10 @@ Short aliases: [/privacy/](/legal/privacy/) · [/terms/](/legal/terms/)
 
 ## Contact
 
-- **Developer**: KHASSINX LLC
+- **Entity**: KHASSINX LLC, a Florida limited liability company
 - **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
+- **Privacy, legal & DMCA**: [legal@khassinx.com](mailto:legal@khassinx.com)
 - **Security**: [security@khassinx.com](mailto:security@khassinx.com) ([disclosure policy](https://khassinx.com/security/))
-- **Privacy concerns**: [hello@khassinx.com](mailto:hello@khassinx.com)
 
 ## License
 

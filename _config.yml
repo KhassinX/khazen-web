@@ -45,6 +45,8 @@ footer_nav:
       url: /legal/privacy/
     - title: Terms
       url: /legal/terms/
+    - title: Legal
+      url: /legal/
     - title: Security
       url: /security/
     - title: Support
@@ -56,6 +58,8 @@ footer_nav:
       url: /es/legal/privacy/
     - title: Términos
       url: /es/legal/terms/
+    - title: Legal
+      url: /es/legal/
     - title: Seguridad
       url: /es/security/
     - title: Soporte
