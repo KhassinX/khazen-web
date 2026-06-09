@@ -5,21 +5,20 @@ permalink: /legal/privacy/
 lang: en
 canonical_en: /legal/privacy/
 canonical_es: /es/legal/privacy/
-canonical_pt-BR: /pt-BR/legal/privacy/
 redirect_from:
   - /PRIVACY_POLICY
   - /PRIVACY_POLICY/
   - /privacy
   - /privacy/
-updated: 2026-05-26
+updated: 2026-06-09
 ---
 
 # Privacy Policy — Khazen
 
-**Effective date**: 2026-05-26
+**Effective date**: 2026-06-09
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
-**Developer**: KhassinX
-**Contact**: hello@khassinx.com
+**Data controller**: KHASSINX LLC, a Florida limited liability company (United States)
+**Contact**: legal@khassinx.com
 
 ---
 
@@ -80,19 +79,6 @@ This model runs **entirely on your device**. Your transactions, balances, and pe
 
 Apple Intelligence eligibility requires iOS 26+ and a recent device. On devices without Apple Intelligence, Khazen's AI features are silently hidden, and the rest of the app works normally.
 
-## Bring-your-own AI keys (optional)
-
-Khazen lets you optionally connect external AI assistants — Claude, ChatGPT, or Gemini — using **your own API keys**.
-
-When you enable this:
-
-- Your API key is stored in the iOS Keychain on your device only. We never receive it.
-- The requests go **directly from your device to your chosen provider** (Anthropic, OpenAI, or Google). They do not pass through our backend.
-- The data you send to those providers is governed by **their** privacy policies and any terms attached to your API account.
-- You can disable bring-your-own AI at any time. Disabling immediately stops outbound requests and removes the key from Keychain.
-
-You are in control of which provider — if any — sees your data outside Apple's on-device model.
-
 ## Subscription and purchases
 
 Subscriptions are processed by **Apple StoreKit 2**. We receive only:
@@ -112,7 +98,7 @@ Free trial: seven days, no auto-charges during the trial period. We send local n
 
 ## Children's privacy
 
-Khazen is intended for users **13 and older** (App Store rating accordingly). We do not knowingly collect data from children under 13. If you believe a child under 13 has used Khazen, contact us at hello@khassinx.com and we will remove all associated data promptly.
+Khazen is intended for users **13 and older** (App Store rating accordingly). We do not knowingly collect data from children under 13. If you believe a child under 13 has used Khazen, contact us at legal@khassinx.com and we will remove all associated data promptly.
 
 ## Your rights
 
@@ -121,10 +107,10 @@ You have the right to:
 - **Access** your data — visible in the app at all times. Export available from in-app Settings.
 - **Delete** your account — one tap from in-app Settings → Account → Delete account. This removes your data from our backend (bank tokens, push tokens, subscription cross-check) within minutes and is verifiable. iCloud-synced data is removed from your iCloud automatically when you delete the app and clear its data from your Apple ID.
 - **Disconnect** individual bank connections at any time without deleting your account.
-- **Object** to any data processing — write to hello@khassinx.com.
+- **Object** to any data processing — write to legal@khassinx.com.
 - **Portability** — export your transactions and accounts from in-app Settings (CSV format).
 
-For users in the **European Union (GDPR)** and **California (CCPA)**: you have the additional rights conferred by those regulations. Write to hello@khassinx.com to exercise them.
+For the full set of region-specific rights — the EU/EEA (GDPR), the UK, Spain (LOPDGDD), California (CCPA/CPRA), other US states, and the rest of the world — and how they apply, see KhassinX's [Privacy Rights](https://khassinx.com/legal/your-rights/). To exercise any of them for Khazen, use the in-app controls above or email [`legal@khassinx.com`](mailto:legal@khassinx.com).
 
 ## Apple App Privacy Nutrition Labels
 
@@ -160,19 +146,29 @@ We may update this policy when:
 
 Material changes will be reflected with a new "Effective date" at the top, and a notice will appear in-app at next launch.
 
+## Breach notification
+
+In the event of a confirmed data breach affecting your personal data, we will:
+
+- Notify the relevant supervisory authority within **72 hours** of confirming the incident, where required by applicable law (including GDPR Art. 33 for EU residents).
+- Notify affected users **without undue delay** through an in-app alert at next launch and, where we have an email on file, via email.
+- Publish a public post-mortem on this site at `/security/incidents/` once mitigation is complete.
+
+We have not experienced a breach to date. This commitment establishes the process if one occurs.
+
 ## Jurisdiction
 
-This policy is governed by the laws of the **State of Florida, USA**. Disputes are resolved in the courts of the State of Florida.
+This policy is governed by the laws of the **State of Florida, United States** — the jurisdiction in which KHASSINX LLC is formed. Disputes are resolved under those laws.
 
 ## Contact
 
 If you have any privacy concerns or questions:
 
-- **Email**: hello@khassinx.com
+- **Email**: legal@khassinx.com
 - **Mail**: Available on written request via email
 
 We aim to respond within seven business days.
 
 ---
 
-*Last updated: 2026-05-26 · Version 1.0*
+*Last updated: 2026-06-09 · Version 1.1*

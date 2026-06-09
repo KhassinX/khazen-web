@@ -5,19 +5,18 @@ permalink: /es/legal/terms/
 lang: es
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-canonical_pt-BR: /pt-BR/legal/terms/
 redirect_from:
   - /es/terminos
   - /es/terminos/
-updated: 2026-05-26
+updated: 2026-06-09
 ---
 
 # Términos de Uso — Khazen
 
-**Fecha de vigencia**: 2026-05-26
+**Fecha de vigencia**: 2026-06-09
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
-**Desarrollador**: KhassinX
-**Contacto**: hello@khassinx.com
+**Desarrollador**: KHASSINX LLC, una sociedad de responsabilidad limitada de Florida
+**Contacto**: legal@khassinx.com
 
 Al descargar, instalar o usar Khazen, aceptas estos términos. Si no estás de acuerdo, por favor no uses la app.
 
@@ -60,7 +59,7 @@ Khazen se ofrece como **suscripción**. Los precios y planes se muestran en la a
 
 ## 5. Contenido generado por IA
 
-Khazen usa **Apple Intelligence (FoundationModels)** en tu dispositivo para generar resúmenes y perspectivas financieras. Opcionalmente, puedes conectar asistentes externos (Claude, ChatGPT o Gemini) usando tus propias claves de API.
+Khazen usa **Apple Intelligence (FoundationModels)** en tu dispositivo para generar resúmenes y perspectivas financieras.
 
 El contenido generado por IA puede ocasionalmente:
 
@@ -86,8 +85,8 @@ Los intentos de eludir la verificación de la suscripción activan nuestra verif
 
 ## 7. Propiedad intelectual
 
-- La app de Khazen (código, diseño, recursos, prompts de IA, heurísticas de clasificación) es **copyright © 2026 KhassinX**, todos los derechos reservados.
-- Khazen y el logo de Khazen son marcas no registradas de KhassinX.
+- La app de Khazen (código, diseño, recursos, prompts de IA, heurísticas de clasificación) es **copyright © 2026 KHASSINX LLC**, todos los derechos reservados.
+- Khazen y el logo de Khazen son marcas no registradas de KHASSINX LLC.
 - Apple, iPhone, iPad, Apple Watch, Mac, Apple Intelligence, App Store y marcas relacionadas son marcas de Apple Inc.
 - Los nombres y logos de bancos referenciados dentro de la app siguen siendo propiedad de sus respectivos dueños y se usan solo para identificar tus cuentas.
 
@@ -95,7 +94,7 @@ Los intentos de eludir la verificación de la suscripción activan nuestra verif
 
 Khazen se proporciona **"TAL CUAL"** sin garantía de ningún tipo, expresa o implícita, incluidas pero no limitadas a garantías de comerciabilidad, idoneidad para un propósito particular, exactitud de la información o no infracción.
 
-Hasta el máximo permitido por la ley, KhassinX **no será responsable** de ningún daño indirecto, incidental, consecuente, especial o punitivo que surja del uso de la app, incluyendo pero no limitado a:
+Hasta el máximo permitido por la ley, KHASSINX LLC **no será responsable** de ningún daño indirecto, incidental, consecuente, especial o punitivo que surja del uso de la app, incluyendo pero no limitado a:
 
 - Decisiones financieras tomadas con base en perspectivas mostradas en la app
 - Pagos atrasados, comisiones por descubierto u otros cargos bancarios
@@ -107,7 +106,7 @@ Nuestra responsabilidad acumulada total contigo por cualquier reclamo derivado d
 
 ## 9. Disponibilidad del servicio y cambios
 
-Khazen depende de servicios de terceros (las plataformas de Apple, la red regulada de datos financieros, tu banco y tu proveedor de IA si configuraste alguno). Las interrupciones de cualquiera de estos servicios pueden afectar temporalmente la funcionalidad de Khazen.
+Khazen depende de servicios de terceros (las plataformas de Apple, la red regulada de datos financieros y tu banco). Las interrupciones de cualquiera de estos servicios pueden afectar temporalmente la funcionalidad de Khazen.
 
 Podemos descontinuar o modificar materialmente funciones en cualquier momento. Daremos aviso razonable para cambios materiales que afecten a usuarios de pago. Si Khazen se descontinúa por completo:
 
@@ -138,11 +137,11 @@ Los cambios materiales se reflejarán con una nueva "Fecha de vigencia" arriba. 
 
 ## 12. Ley aplicable y disputas
 
-Estos términos se rigen por las leyes del **Estado de Florida, EE. UU.**, sin consideración a sus principios de conflicto de leyes.
+Estos términos se rigen por las leyes del **Estado de Florida, Estados Unidos** — la jurisdicción en la que KHASSINX LLC está constituida — sin consideración a sus principios de conflicto de leyes.
 
-- Las disputas se resolverán en los tribunales del Estado de Florida.
+- Las disputas se resolverán bajo esas leyes.
 - Ambas partes renuncian al derecho a juicio con jurado para cualquier disputa.
-- Te comprometes a intentar una resolución informal escribiendo a hello@khassinx.com **antes** de iniciar acciones legales formales.
+- Te comprometes a intentar una resolución informal escribiendo a legal@khassinx.com **antes** de iniciar acciones legales formales.
 
 Si alguna disposición se considera inaplicable, el resto sigue vigente.
 
@@ -150,11 +149,11 @@ Si alguna disposición se considera inaplicable, el resto sigue vigente.
 
 Para preguntas, inquietudes, disputas de reembolso (después de agotar el proceso de Apple) o comentarios de accesibilidad:
 
-- **Correo**: hello@khassinx.com
+- **Correo**: legal@khassinx.com
 - **Postal**: Disponible por escrito a través del correo electrónico
 
 Tiempo esperado de respuesta: siete días hábiles.
 
 ---
 
-*Última actualización: 2026-05-26 · Versión 1.0*
+*Última actualización: 2026-06-09 · Versión 1.1*

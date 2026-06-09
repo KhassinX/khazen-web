@@ -6,9 +6,25 @@ lang: en
 # Layer 2 brand tokens (Khazen specific) extending Layer 3 primitives
 app_tokens_css: /assets/css/khazen-tokens.css
 
-# Favicons — single SVG monogram para Apple/modern browsers
+# Favicons — SVG monogram + PNG fallbacks
 favicon_svg: /assets/favicons/favicon.svg
-apple_touch_icon: /assets/favicons/apple-touch-icon.svg
+favicon_32: /assets/favicons/favicon-32.png
+favicon_16: /assets/favicons/favicon-16.png
+apple_touch_icon: /assets/favicons/apple-touch-icon.png
+
+# Social / Open Graph + Twitter
+og_site_name: Khazen
+og_image: /assets/og/og-image.png
+og_image_es: /assets/og/og-image-es.png
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: "Khazen — private personal finance for Apple platforms"
+og_image_alt_es: "Khazen — finanzas personales privadas para plataformas Apple"
+twitter_card: summary_large_image
+
+# JSON-LD (SoftwareApplication, publisher KhassinX)
+org:
+  name: KhassinX
 
 # Navigation — keyed per locale. base.html selects via page.lang con fallback a 'en'.
 nav:
@@ -22,11 +38,6 @@ nav:
       url: /es/legal/
     - title: Soporte
       url: /es/support/
-  pt-BR:
-    - title: Legal
-      url: /pt-BR/legal/
-    - title: Suporte
-      url: /pt-BR/support/
 
 footer_nav:
   en:
@@ -34,6 +45,8 @@ footer_nav:
       url: /legal/privacy/
     - title: Terms
       url: /legal/terms/
+    - title: Legal
+      url: /legal/
     - title: Security
       url: /security/
     - title: Support
@@ -45,22 +58,13 @@ footer_nav:
       url: /es/legal/privacy/
     - title: Términos
       url: /es/legal/terms/
+    - title: Legal
+      url: /es/legal/
     - title: Seguridad
       url: /es/security/
     - title: Soporte
       url: /es/support/
     - title: Contacto
-      url: mailto:hello@khassinx.com
-  pt-BR:
-    - title: Privacidade
-      url: /pt-BR/legal/privacy/
-    - title: Termos
-      url: /pt-BR/legal/terms/
-    - title: Segurança
-      url: /pt-BR/security/
-    - title: Suporte
-      url: /pt-BR/support/
-    - title: Contato
       url: mailto:hello@khassinx.com
 
 # UI strings (skip-link y "Part of ecosystem") consumed by base.html
@@ -75,11 +79,6 @@ ui_strings:
     part_of_ecosystem_prefix: "Parte del"
     part_of_ecosystem_label: "ecosistema KhassinX"
     ecosystem_url: "https://khassinx.com/es/"
-  pt-BR:
-    skip_to_main: "Pular para o conteúdo principal"
-    part_of_ecosystem_prefix: "Parte do"
-    part_of_ecosystem_label: "ecossistema KhassinX"
-    ecosystem_url: "https://khassinx.com"
 
 # Jekyll config
 markdown: kramdown

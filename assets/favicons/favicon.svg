@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Khazen">
   <defs>
-    <linearGradient id="kgrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FF6B4A"/>
-      <stop offset="50%" stop-color="#9B5DE5"/>
-      <stop offset="100%" stop-color="#00D4A8"/>
-    </linearGradient>
+    <linearGradient id="ic_bg" x1="0.5" y1="0" x2="0.5" y2="0.7"><stop offset="0%" stop-color="#1E3A5F"/><stop offset="100%" stop-color="#0F1F36"/></linearGradient>
+    <linearGradient id="ic_stem" x1="370" y1="246" x2="370" y2="775" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6FB6FF"/><stop offset=".27" stop-color="#4A7DFB"/><stop offset=".47" stop-color="#3D62EE"/><stop offset=".66" stop-color="#4E96EC"/><stop offset=".83" stop-color="#45AEC6"/><stop offset="1" stop-color="#69CBA4"/></linearGradient>
+    <linearGradient id="ic_arms" x1="748" y1="250" x2="648" y2="790" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFD96B"/><stop offset=".15" stop-color="#FF9C6E"/><stop offset=".35" stop-color="#FE5F82"/><stop offset=".58" stop-color="#FB47A8"/><stop offset=".8" stop-color="#EC2AC9"/><stop offset="1" stop-color="#F42CDA"/></linearGradient>
+    <clipPath id="ic_clip"><rect width="1024" height="1024" rx="224" ry="224"/></clipPath>
   </defs>
-  <rect width="64" height="64" rx="14" fill="#0A1429"/>
-  <text x="32" y="46" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', Helvetica, sans-serif" font-size="40" font-weight="700" text-anchor="middle" fill="url(#kgrad)" letter-spacing="-1.5">K</text>
-</svg>
+  <g clip-path="url(#ic_clip)">
+    <rect width="1024" height="1024" fill="url(#ic_bg)"/>
+    <path d="M 316,246 L 424,246 Q 460,246 460,282 L 460,739 Q 460,775 424,775 L 316,775 Q 280,775 280,739 L 280,282 Q 280,246 316,246 Z" fill="url(#ic_stem)"/>
+    <path d="M 738.86,247 Q 764.86,247 749.23,267.78 L 591.59,477.4 Q 579.57,493.39 591.36,509.54 L 770.55,755 Q 785.88,776 759.88,776 L 615.91,776 Q 603.91,776 597.12,766.11 L 419.94,508.21 Q 410.88,495.03 420.89,482.54 L 602.05,256.37 Q 609.55,247 621.55,247 Z" fill="url(#ic_arms)"/>
+  </g></svg>
