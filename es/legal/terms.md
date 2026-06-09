@@ -8,15 +8,15 @@ canonical_es: /es/legal/terms/
 redirect_from:
   - /es/terminos
   - /es/terminos/
-updated: 2026-05-26
+updated: 2026-06-09
 ---
 
 # Términos de Uso — Khazen
 
-**Fecha de vigencia**: 2026-05-26
+**Fecha de vigencia**: 2026-06-09
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
-**Desarrollador**: KHASSINX LLC
-**Contacto**: hello@khassinx.com
+**Desarrollador**: KHASSINX LLC, una sociedad de responsabilidad limitada de Florida
+**Contacto**: legal@khassinx.com
 
 Al descargar, instalar o usar Khazen, aceptas estos términos. Si no estás de acuerdo, por favor no uses la app.
 
@@ -137,11 +137,11 @@ Los cambios materiales se reflejarán con una nueva "Fecha de vigencia" arriba. 
 
 ## 12. Ley aplicable y disputas
 
-Estos términos se rigen por las leyes del lugar de registro del operador en los Estados Unidos, sin consideración a sus principios de conflicto de leyes.
+Estos términos se rigen por las leyes del **Estado de Florida, Estados Unidos** — la jurisdicción en la que KHASSINX LLC está constituida — sin consideración a sus principios de conflicto de leyes.
 
 - Las disputas se resolverán bajo esas leyes.
 - Ambas partes renuncian al derecho a juicio con jurado para cualquier disputa.
-- Te comprometes a intentar una resolución informal escribiendo a hello@khassinx.com **antes** de iniciar acciones legales formales.
+- Te comprometes a intentar una resolución informal escribiendo a legal@khassinx.com **antes** de iniciar acciones legales formales.
 
 Si alguna disposición se considera inaplicable, el resto sigue vigente.
 
@@ -149,11 +149,11 @@ Si alguna disposición se considera inaplicable, el resto sigue vigente.
 
 Para preguntas, inquietudes, disputas de reembolso (después de agotar el proceso de Apple) o comentarios de accesibilidad:
 
-- **Correo**: hello@khassinx.com
+- **Correo**: legal@khassinx.com
 - **Postal**: Disponible por escrito a través del correo electrónico
 
 Tiempo esperado de respuesta: siete días hábiles.
 
 ---
 
-*Última actualización: 2026-05-26 · Versión 1.0*
+*Última actualización: 2026-06-09 · Versión 1.1*
