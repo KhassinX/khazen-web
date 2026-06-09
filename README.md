@@ -8,7 +8,7 @@ Source for **khazen.khassinx.com** — the public web property for [Khazen](http
 - `legal/` — Privacy Policy, Terms of Use, Legal index
 - `security/` — Security & Responsible Disclosure
 - `support/` — User support + FAQ
-- `es/`, `pt-BR/` — native localized mirrors (Spanish, Brazilian Portuguese)
+- `es/` — native localized mirror (Spanish)
 - `_layouts/` — Jekyll base + prose layouts
 - `assets/css/` — Layer 3 primitives + Layer 2 Khazen brand tokens
 - `assets/favicons/` — K monogram favicons (multi-color gradient)
@@ -16,13 +16,11 @@ Source for **khazen.khassinx.com** — the public web property for [Khazen](http
 
 ## Stack
 
-GitHub Pages (Jekyll) → Cloudflare proxy → `khazen.khassinx.com`. Custom domain via `CNAME` file. SSL via Cloudflare Full (strict).
-
-Canonical spec: `~/KhassinX/_template/web/WEB_PROPERTY_SPEC.md`.
+Static site (Jekyll), served over HTTPS at `khazen.khassinx.com`.
 
 ## Localization
 
-EN default (no prefix), ES under `/es/`, pt-BR under `/pt-BR/`. Each locale is **natively written**, not machine-translated. Per-page `lang:` front-matter + hreflang tags signal locale to crawlers.
+EN default (no prefix), ES under `/es/`. Each locale is **natively written**, not machine-translated. Per-page `lang:` front-matter + hreflang tags signal locale to crawlers.
 
 ## Contact
 

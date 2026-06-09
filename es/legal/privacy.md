@@ -5,19 +5,18 @@ permalink: /es/legal/privacy/
 lang: es
 canonical_en: /legal/privacy/
 canonical_es: /es/legal/privacy/
-canonical_pt-BR: /pt-BR/legal/privacy/
 redirect_from:
   - /es/privacidad
   - /es/privacidad/
-updated: 2026-05-26
+updated: 2026-06-09
 ---
 
 # Política de Privacidad — Khazen
 
-**Fecha de vigencia**: 2026-05-26
+**Fecha de vigencia**: 2026-06-09
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
-**Desarrollador**: KhassinX
-**Contacto**: hello@khassinx.com
+**Responsable del tratamiento**: KHASSINX LLC, una sociedad de responsabilidad limitada de Florida (Estados Unidos)
+**Contacto**: legal@khassinx.com
 
 ---
 
@@ -78,19 +77,6 @@ Este modelo corre **completamente en tu dispositivo**. Tus transacciones, saldos
 
 Apple Intelligence requiere iOS 26+ y un dispositivo reciente. En dispositivos sin Apple Intelligence, las funciones de IA de Khazen se ocultan silenciosamente y el resto de la app funciona normal.
 
-## Asistentes externos de IA con tu propia clave (opcional)
-
-Khazen te permite conectar opcionalmente asistentes externos — Claude, ChatGPT o Gemini — usando **tus propias claves de API**.
-
-Cuando activas esto:
-
-- Tu clave de API se guarda solo en el Llavero (Keychain) de iOS en tu dispositivo. Nosotros nunca la recibimos.
-- Las peticiones van **directamente desde tu dispositivo al proveedor que elegiste** (Anthropic, OpenAI o Google). No pasan por nuestro backend.
-- Los datos que envíes a esos proveedores se rigen por **sus** políticas de privacidad y por los términos de tu cuenta de API.
-- Puedes desactivar los asistentes externos cuando quieras. Al desactivarlos, las peticiones salientes se detienen y la clave se elimina del Llavero.
-
-Tú decides qué proveedor — si alguno — ve tus datos fuera del modelo en el dispositivo de Apple.
-
 ## Suscripción y compras
 
 Las suscripciones se procesan vía **Apple StoreKit 2**. Recibimos solo:
@@ -110,7 +96,7 @@ Prueba gratuita: siete días, sin cargos automáticos durante la prueba. Te envi
 
 ## Privacidad de menores
 
-Khazen está dirigida a usuarios **de 13 años o más** (clasificación del App Store en consecuencia). No recopilamos a sabiendas datos de menores de 13 años. Si crees que un menor de 13 ha usado Khazen, escríbenos a hello@khassinx.com y eliminaremos sin demora cualquier dato asociado.
+Khazen está dirigida a usuarios **de 13 años o más** (clasificación del App Store en consecuencia). No recopilamos a sabiendas datos de menores de 13 años. Si crees que un menor de 13 ha usado Khazen, escríbenos a legal@khassinx.com y eliminaremos sin demora cualquier dato asociado.
 
 ## Tus derechos
 
@@ -119,10 +105,10 @@ Tienes derecho a:
 - **Acceder** a tus datos — visibles en la app en todo momento. Exportación disponible desde Ajustes en la app.
 - **Borrar** tu cuenta — un solo toque desde Ajustes → Cuenta → Borrar cuenta en la app. Esto elimina tus datos de nuestro backend (tokens de banco, tokens de push, cruce de suscripción) en minutos y es verificable. Los datos sincronizados por iCloud se eliminan automáticamente cuando borras la app y limpias sus datos de iCloud en tu Apple ID.
 - **Desconectar** conexiones bancarias individuales cuando quieras, sin borrar tu cuenta.
-- **Oponerte** a cualquier procesamiento — escríbenos a hello@khassinx.com.
+- **Oponerte** a cualquier procesamiento — escríbenos a legal@khassinx.com.
 - **Portabilidad** — exporta tus transacciones y cuentas desde Ajustes en la app (formato CSV).
 
-Para usuarios en la **Unión Europea (RGPD)** y **California (CCPA)**: tienes los derechos adicionales que esas regulaciones confieren. Escríbenos a hello@khassinx.com para ejercerlos.
+Para conocer el conjunto completo de derechos según tu región — la UE/EEE (RGPD), el Reino Unido, España (LOPDGDD), California (CCPA/CPRA), otros estados de EE. UU. y el resto del mundo — y cómo se aplican, consulta los [Derechos de Privacidad](https://khassinx.com/es/legal/your-rights/) de KhassinX. Para ejercer cualquiera de ellos en Khazen, usa los controles dentro de la app o escribe a [`legal@khassinx.com`](mailto:legal@khassinx.com).
 
 ## Etiquetas de Privacidad de Apple
 
@@ -158,19 +144,29 @@ Podemos actualizar esta política cuando:
 
 Los cambios materiales se reflejarán con una nueva "Fecha de vigencia" arriba y se mostrará un aviso en la app al siguiente arranque.
 
+## Notificación de incidentes
+
+Ante una vulneración de datos confirmada que afecte tus datos personales:
+
+- Notificaremos a la autoridad de protección de datos correspondiente dentro de las **72 horas** de confirmar el incidente, cuando lo exija la legislación aplicable (incluyendo el Art. 33 del RGPD para residentes en la UE).
+- Notificaremos a los usuarios afectados **sin demora injustificada** mediante una alerta en la app al siguiente arranque y, si tenemos un correo registrado, por correo electrónico.
+- Publicaremos un post-mortem público en este sitio en `/security/incidents/` una vez completada la mitigación.
+
+Hasta la fecha no hemos sufrido ninguna vulneración. Este compromiso establece el proceso por si ocurre.
+
 ## Jurisdicción
 
-Esta política se rige por las leyes del **Estado de Florida, EE. UU.** Las disputas se resuelven en los tribunales del Estado de Florida.
+Esta política se rige por las leyes del **Estado de Florida, Estados Unidos** — la jurisdicción en la que KHASSINX LLC está constituida. Las disputas se resuelven bajo esas leyes.
 
 ## Contacto
 
 Si tienes alguna duda o inquietud sobre privacidad:
 
-- **Correo**: hello@khassinx.com
+- **Correo**: legal@khassinx.com
 - **Postal**: Disponible por escrito a través del correo electrónico
 
 Buscamos responder en siete días hábiles.
 
 ---
 
-*Última actualización: 2026-05-26 · Versión 1.0*
+*Última actualización: 2026-06-09 · Versión 1.1*
