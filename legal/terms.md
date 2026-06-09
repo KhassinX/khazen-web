@@ -10,15 +10,15 @@ redirect_from:
   - /TERMS_OF_USE/
   - /terms
   - /terms/
-updated: 2026-05-26
+updated: 2026-06-09
 ---
 
 # Terms of Use — Khazen
 
-**Effective date**: 2026-05-26
+**Effective date**: 2026-06-09
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
-**Developer**: KHASSINX LLC
-**Contact**: hello@khassinx.com
+**Developer**: KHASSINX LLC, a Florida limited liability company
+**Contact**: legal@khassinx.com
 
 By downloading, installing, or using Khazen, you agree to these terms. If you do not agree, please do not use the app.
 
@@ -139,11 +139,11 @@ Material changes will be reflected with a new "Effective date" at the top. Conti
 
 ## 12. Governing law and disputes
 
-These terms are governed by the laws of the operator's registered place of business in the United States, without regard to conflict-of-laws principles.
+These terms are governed by the laws of the **State of Florida, United States** — the jurisdiction in which KHASSINX LLC is formed — without regard to conflict-of-laws principles.
 
 - Disputes shall be resolved under those laws.
 - Both parties waive the right to a jury trial for any dispute.
-- You agree to attempt informal resolution by emailing hello@khassinx.com **before** pursuing formal legal action.
+- You agree to attempt informal resolution by emailing legal@khassinx.com **before** pursuing formal legal action.
 
 If any provision of these terms is found unenforceable, the rest remains in effect.
 
@@ -151,11 +151,11 @@ If any provision of these terms is found unenforceable, the rest remains in effe
 
 Questions, concerns, refund disputes (after exhausting Apple's process), or accessibility feedback:
 
-- **Email**: hello@khassinx.com
+- **Email**: legal@khassinx.com
 - **Mail**: Available on written request via email
 
 Expected response time: seven business days.
 
 ---
 
-*Last updated: 2026-05-26 · Version 1.0*
+*Last updated: 2026-06-09 · Version 1.1*
