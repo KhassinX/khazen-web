@@ -36,19 +36,21 @@ Khazen is a **personal finance app**. It connects to your bank accounts, helps y
 
 Khazen is **not**:
 
-- A bank, a broker, or a financial institution
+- A bank, credit union, money transmitter, broker, or lender
 - A registered investment adviser or a provider of financial, tax, or legal advice
 - An accountant or a substitute for professional financial guidance
+
+**Khazen does not hold, move, or have custody of your money.** It connects to your accounts on a **read-only** basis to show and organize the information you choose to share, and never stores your bank login credentials.
 
 Insights, projections, and recommendations shown in the app are **informational** and based on patterns detected in your own transactions. They are **not** personalized financial advice. Decisions about your money — saving, investing, paying off debt, taxes — should be made by you, with the help of a qualified professional when needed.
 
 ## 3. Bank connections — your authorization
 
-To work, Khazen needs to connect to your bank accounts. By connecting an account, you authorize the **regulated financial data network** integrated with Khazen to retrieve transaction and balance information from your bank on your behalf.
+To work, Khazen needs to connect to your bank accounts. By connecting an account, you authorize **Plaid Inc.** ("Plaid"), the financial-data network integrated with Khazen, to retrieve transaction and balance information from your bank on your behalf.
 
-- The network's terms govern its handling of your bank credentials and the data it returns. You receive those terms during the connect flow.
-- Khazen does not see your bank credentials. The connection flow happens between you and your bank (or the network, on your bank's behalf).
-- You can revoke a bank connection at any time, from Khazen's Settings → Accounts → Disconnect. Revocation is immediate.
+- Plaid's terms and [End User Privacy Policy](https://plaid.com/legal/#end-user-privacy-policy) govern its handling of your bank credentials and the data it returns. You receive these during the connect flow.
+- Khazen does not see your bank credentials. The connection happens between you and your bank through Plaid.
+- You can disconnect a bank at any time from Khazen's Settings → Accounts → Disconnect.
 
 ## 4. Subscription, free trial, and renewal
 
@@ -89,8 +91,9 @@ Attempts to circumvent subscription verification trigger our `Transaction.curren
 
 - The Khazen app (code, design, assets, AI prompts, classification heuristics) is **copyright © 2026 KHASSINX LLC**, all rights reserved.
 - Khazen and the Khazen logo are unregistered trademarks of KHASSINX LLC.
-- Apple, iPhone, iPad, Apple Watch, Mac, Apple Intelligence, App Store, and related marks are trademarks of Apple Inc.
-- Bank names and logos referenced inside the app remain the property of their respective owners and are used only to identify your accounts.
+- Apple, iPhone, iPad, Apple Watch, Mac, and StoreKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions; App Store and iCloud are service marks of Apple Inc.; Apple Intelligence is a trademark of Apple Inc.
+- Plaid is a trademark of Plaid Inc.
+- Bank names and logos referenced inside the app remain the property of their respective owners and are used only to identify your accounts. Khazen is not affiliated with, endorsed by, or sponsored by Apple, Plaid, or any bank beyond the services described in these terms.
 
 ## 8. No warranty · Limitation of liability
 
@@ -108,7 +111,7 @@ Our total cumulative liability to you for any claim arising from these terms or 
 
 ## 9. Service availability and changes
 
-Khazen depends on third-party services (Apple platforms, the regulated financial data network, and your bank). Outages of any of these services may interrupt Khazen's functionality temporarily.
+Khazen depends on third-party services (Apple platforms, Plaid, and your bank). Outages of any of these services may interrupt Khazen's functionality temporarily.
 
 We may discontinue or materially modify features at any time. We will give reasonable notice for material changes that affect paying users. If Khazen is discontinued entirely, we will:
 
@@ -121,7 +124,7 @@ We may discontinue or materially modify features at any time. We will give reaso
 You may stop using Khazen at any time by:
 
 - Cancelling your subscription (Settings → Apple ID → Subscriptions)
-- Deleting your account from Khazen's Settings → Account → Delete account (removes everything from our backend)
+- Deleting your account from Khazen's Settings → Account → Delete account (removes your records from our backend)
 - Deleting the app from your device
 
 We may suspend or terminate your access to Khazen if you breach these terms, attempt to defraud, or use the app illegally.
@@ -132,7 +135,7 @@ We may update these terms when:
 
 - Adding new features that materially change the experience
 - Reflecting changes in Apple App Store policies
-- Reflecting changes in the regulated financial data network's terms
+- Reflecting changes in Plaid's terms
 - Correcting legal or factual errors
 
 Material changes will be reflected with a new "Effective date" at the top. Continued use after a change constitutes acceptance.
