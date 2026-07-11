@@ -163,7 +163,7 @@ Khazen's backend operates in the United States. If you use Khazen from outside t
 We may update this policy when:
 
 - Adding new features that materially change data handling
-- Reflecting changes in Apple App Store policies
+- Reflecting changes in App Store policies
 - Correcting legal or factual errors
 
 Material changes will be reflected with a new "Effective date" at the top, and a notice will appear in-app at next launch.
