@@ -161,7 +161,7 @@ El backend de Khazen opera en Estados Unidos. Si usas Khazen fuera de EE. UU., t
 Podemos actualizar esta política cuando:
 
 - Se agregan funciones que cambian materialmente el manejo de datos
-- Cambian las políticas del App Store de Apple
+- Cambian las políticas del App Store
 - Se corrigen errores legales o de hecho
 
 Los cambios materiales se reflejarán con una nueva "Fecha de vigencia" arriba y se mostrará un aviso en la app al siguiente arranque.
