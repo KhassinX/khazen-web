@@ -8,7 +8,7 @@ canonical_es: /es/legal/terms/
 redirect_from:
   - /es/terminos
   - /es/terminos/
-updated: 2026-06-09
+updated: 2026-07-11
 ---
 
 # Términos de Uso — Khazen
@@ -147,6 +147,18 @@ Estos términos se rigen por las leyes del **Estado de Florida, Estados Unidos**
 - Te comprometes a intentar una resolución informal escribiendo a legal@khassinx.com **antes** de iniciar acciones legales formales.
 
 Si alguna disposición se considera inaplicable, el resto sigue vigente.
+
+## Indemnización
+
+Aceptas indemnizar y mantener indemne a KHASSINX LLC frente a reclamos, daños y honorarios razonables de abogados derivados de tu violación de estos términos o de tu mal uso de la app, en la medida en que lo permita la ley que te aplica.
+
+## Disputas
+
+Antes de presentar cualquier reclamo, aceptas escribir a [`legal@khassinx.com`](mailto:legal@khassinx.com) y darnos sesenta días para intentar resolver la disputa de manera informal. Salvo donde la ley te dé derecho a demandar en otro lugar (incluidos los tribunales de menor cuantía), las disputas se resolverán en los tribunales estatales o federales ubicados en Florida, y ambas partes aceptamos su jurisdicción. En la medida en que la ley lo permita, los reclamos solo pueden presentarse a título individual, no como parte de una acción colectiva o representativa. Si eres consumidor en una jurisdicción cuya ley te otorga protecciones irrenunciables, esas protecciones siguen siendo tuyas.
+
+## Disposiciones generales
+
+Si una parte de estos términos resulta inexigible, el resto sigue vigente. Que no hagamos valer una disposición no es una renuncia a ella. No puedes ceder estos términos; nosotros podemos cederlos como parte de una reorganización o transferencia del servicio. No somos responsables por demoras o fallas causadas por eventos fuera de nuestro control razonable. Estos términos se publican en Español e inglés; si las versiones alguna vez entran en conflicto, prevalece la versión en inglés.
 
 ## 13. Contacto
 
