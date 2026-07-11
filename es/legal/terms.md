@@ -80,7 +80,7 @@ Te comprometes a usar Khazen solo para fines personales y lícitos. **No** puede
 - Hacer ingeniería inversa, descompilar, desensamblar ni intentar derivar el código fuente de la app
 - Usar sistemas automáticos para extraer, raspar o minar datos de la app
 - Eludir la verificación de la suscripción (por ejemplo, mediante jailbreak, modificación de la app o recibos fraudulentos)
-- Usar la app de forma que viole las políticas del App Store de Apple o la ley aplicable
+- Usar la app de forma que viole las políticas del App Store o la ley aplicable
 - Usar la app para lavado de dinero, fraude o cualquier otra actividad ilegal
 
 Los intentos de eludir la verificación de la suscripción activan nuestra verificación con `Transaction.currentEntitlements` más cruce contra servidor. El fraude detectado resulta en revocación de acceso y se reporta a Apple.
@@ -132,7 +132,7 @@ Podemos suspender o terminar tu acceso a Khazen si incumples estos términos, in
 Podemos actualizar estos términos cuando:
 
 - Agregamos funciones que cambian materialmente la experiencia
-- Cambian las políticas del App Store de Apple
+- Cambian las políticas del App Store
 - Cambian los términos de Plaid
 - Corregimos errores legales o de hecho
 
