@@ -10,7 +10,7 @@ redirect_from:
   - /PRIVACY_POLICY/
   - /privacy
   - /privacy/
-updated: 2026-06-09
+updated: 2026-07-11
 ---
 
 # Privacy Policy â€” Khazen
@@ -185,6 +185,10 @@ This policy is governed by the laws of the **State of Florida, United States** â
 ## Trademarks
 
 Apple, the Apple logo, iPhone, iPad, Apple Watch, Mac, and StoreKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store and iCloud are service marks of Apple Inc. Apple Intelligence is a trademark of Apple Inc. Use of the "Sign in with Apple" name is subject to Apple's guidelines. Plaid is a trademark of Plaid Inc. All other trademarks are the property of their respective owners. Khazen is a product of KHASSINX LLC and is not affiliated with, endorsed by, or sponsored by these companies beyond the services described in this policy.
+
+## This website
+
+This site is static. It sets no cookies of its own, runs no analytics or tracking of any kind, embeds no third-party scripts or pixels, and has no forms. We do not track anyone, so there is nothing for a "Do Not Track" signal to turn off, and no third party is permitted to collect information about your activity across sites through this website. The site is served by GitHub Pages with DNS and delivery by Cloudflare; like any web host, those providers process standard technical request data (such as your IP address) to deliver and protect the site, as independent companies under their own privacy policies. We do not receive, keep, or use that data.
 
 ## Contact
 
