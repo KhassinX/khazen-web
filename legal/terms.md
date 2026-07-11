@@ -10,7 +10,7 @@ redirect_from:
   - /TERMS_OF_USE/
   - /terms
   - /terms/
-updated: 2026-06-09
+updated: 2026-07-11
 ---
 
 # Terms of Use — Khazen
@@ -149,6 +149,18 @@ These terms are governed by the laws of the **State of Florida, United States** 
 - You agree to attempt informal resolution by emailing legal@khassinx.com **before** pursuing formal legal action.
 
 If any provision of these terms is found unenforceable, the rest remains in effect.
+
+## Indemnification
+
+You agree to indemnify and hold KHASSINX LLC harmless from claims, damages, and reasonable attorneys' fees arising from your violation of these terms or your misuse of the app, to the extent permitted by the law that applies to you.
+
+## Disputes
+
+Before filing any claim, you agree to email [`legal@khassinx.com`](mailto:legal@khassinx.com) and give us sixty days to try to resolve the dispute informally. Except where the law gives you the right to sue elsewhere (including small-claims court), disputes will be resolved in the state or federal courts located in Florida, and each of us consents to their jurisdiction. To the extent permitted by law, claims may only be brought individually, not as part of a class or representative action. If you are a consumer in a jurisdiction whose law grants you mandatory protections, those protections remain yours.
+
+## General terms
+
+If part of these terms is found unenforceable, the rest remains in effect. Our failure to enforce a provision is not a waiver. You may not assign these terms; we may assign them as part of a reorganization or transfer of the service. We are not responsible for delay or failure caused by events beyond our reasonable control. These terms are published in English and Español; if the versions ever conflict, the English version controls.
 
 ## 13. Contact
 

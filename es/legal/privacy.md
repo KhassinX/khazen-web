@@ -8,7 +8,7 @@ canonical_es: /es/legal/privacy/
 redirect_from:
   - /es/privacidad
   - /es/privacidad/
-updated: 2026-06-09
+updated: 2026-07-11
 ---
 
 # Política de Privacidad — Khazen
@@ -183,6 +183,14 @@ Esta política se rige por las leyes del **Estado de Florida, Estados Unidos** �
 ## Marcas registradas
 
 Apple, el logo de Apple, iPhone, iPad, Apple Watch, Mac y StoreKit son marcas comerciales de Apple Inc., registradas en EE. UU. y en otros países y regiones. App Store e iCloud son marcas de servicio de Apple Inc. Apple Intelligence es una marca comercial de Apple Inc. El uso del nombre "Sign in with Apple" está sujeto a las directrices de Apple. Plaid es una marca comercial de Plaid Inc. Las demás marcas pertenecen a sus respectivos dueños. Khazen es un producto de KHASSINX LLC y no está afiliado, respaldado ni patrocinado por estas empresas más allá de los servicios descritos en esta política.
+
+## Este sitio web
+
+Este sitio es estático. No usa cookies propias, no corre ningún tipo de analytics ni tracking, no incrusta scripts ni píxeles de terceros, y no tiene formularios. No rastreamos a nadie, así que no hay nada que una señal "Do Not Track" pueda apagar, y ningún tercero está autorizado a recolectar información sobre tu actividad en otros sitios a través de este sitio web. El sitio lo sirve GitHub Pages, con DNS y entrega a cargo de Cloudflare; como cualquier host web, esos proveedores procesan datos técnicos estándar de las solicitudes (como tu dirección IP) para servir y proteger el sitio, como empresas independientes bajo sus propias políticas de privacidad. Nosotros no recibimos, guardamos ni usamos esos datos.
+
+## Los emails que nos envías
+
+Si nos escribes, recibimos tu dirección de email y tu mensaje. Los usamos solo para responderte y arreglar lo que reportaste — sin listas, sin marketing, sin compartirlos. La correspondencia de soporte se conserva solo el tiempo necesario para ayudarte y para nuestras obligaciones legales, y puedes pedirnos borrarla en cualquier momento en [`legal@khassinx.com`](mailto:legal@khassinx.com).
 
 ## Contacto
 
