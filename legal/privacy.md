@@ -35,7 +35,7 @@ You can disconnect any bank at any time. You can delete your account in one tap,
 | Category | Collected? | Purpose |
 |---|---|---|
 | Bank account data (balances, transactions, account names) | ✅ Yes | App functionality — show your money in the app |
-| Apple ID identifier | ✅ Yes (opaque, for sync) | iCloud sync across your devices |
+| Apple Account identifier | ✅ Yes (opaque, for sync) | iCloud sync across your devices |
 | Email address | Only if you contact us | Reply to your message |
 | Subscription status | ✅ Yes (via Apple) | Verify entitlement to paid features |
 | Device push token | ✅ Yes | Send you only the notifications you opt into |
@@ -63,13 +63,13 @@ Plaid is an independent service; its handling of your information is governed by
 
 | What | Where |
 |---|---|
-| Transactions, accounts, budgets, goals, recurring detection | Local SwiftData store on your device + **your personal iCloud** (encrypted, your Apple ID) |
+| Transactions, accounts, budgets, goals, recurring detection | Local SwiftData store on your device + **your personal iCloud** (encrypted, your Apple Account) |
 | Bank-connection tokens (Plaid access tokens) | Encrypted at rest in our backend + on-device Keychain |
 | Subscription entitlement | Verified locally via Apple StoreKit 2 + server cross-check |
-| Push device tokens | Backend table indexed by your opaque Apple ID identifier |
+| Push device tokens | Backend table indexed by your opaque Apple Account identifier |
 | App preferences (categories, currency, theme) | Local + iCloud Key-Value Store |
 
-iCloud sync uses **your** Apple ID. We never see, access, or have any way to retrieve the iCloud-synced data. Apple encrypts it in transit and at rest. If you delete the app and remove the iCloud data, that copy is gone. The only thing we keep on our own servers is the bank-connection token needed to refresh your transactions — scoped to that purpose, and we revoke it when you disconnect the bank or delete your account.
+iCloud sync uses **your** Apple Account. We never see, access, or have any way to retrieve the iCloud-synced data. Apple encrypts it in transit and at rest. If you delete the app and remove the iCloud data, that copy is gone. The only thing we keep on our own servers is the bank-connection token needed to refresh your transactions — scoped to that purpose, and we revoke it when you disconnect the bank or delete your account.
 
 ## Service providers
 
@@ -106,11 +106,11 @@ Apple Intelligence eligibility requires iOS 26+ and a recent device. On devices 
 
 Subscriptions are processed by **Apple StoreKit 2**. We receive only:
 
-- A boolean: this Apple ID has an active subscription (via `Transaction.currentEntitlements`)
+- A boolean: this Apple Account has an active subscription (via `Transaction.currentEntitlements`)
 - The current product (monthly or yearly tier)
 - Renewal and revocation dates (to honor cancellations and refunds promptly)
 
-We do **not** see your name, payment method, billing address, or any other purchase metadata. Apple handles all of that. Refunds and subscription management go through Apple directly (Settings → Apple ID → Subscriptions).
+We do **not** see your name, payment method, billing address, or any other purchase metadata. Apple handles all of that. Refunds and subscription management go through Apple directly (Settings → your name → Subscriptions).
 
 Free trial: seven days, no auto-charges during the trial period. We send local notifications before the trial ends so there are no surprise renewals.
 
@@ -118,7 +118,7 @@ Free trial: seven days, no auto-charges during the trial period. We send local n
 
 ## Notifications and email
 
-- **Push notifications**: opt-in. If you allow them, your device receives an Apple Push Notification token that we store keyed to your opaque Apple ID identifier. Notifications are scoped strictly to what you enable in-app (budget warnings, low balance alerts, etc.). We do not send marketing pushes.
+- **Push notifications**: opt-in. If you allow them, your device receives an Apple Push Notification token that we store keyed to your opaque Apple Account identifier. Notifications are scoped strictly to what you enable in-app (budget warnings, low balance alerts, etc.). We do not send marketing pushes.
 - **Email**: if you write to us at any `@khassinx.com` address, we receive your message and reply address through our email provider. We retain that correspondence to handle the conversation and any follow-up. We do not add you to any mailing list. Khazen has no mailing list.
 
 ## Children's privacy
@@ -130,7 +130,7 @@ Khazen is intended for users **13 and older** (App Store rating accordingly). We
 You have the right to:
 
 - **Access** your data — visible in the app at all times.
-- **Delete** your account — one tap from in-app Settings → Account → Delete account. This removes your records from our backend and closes the bank connections you linked. iCloud-synced data is removed from your iCloud when you delete the app and clear its data from your Apple ID.
+- **Delete** your account — one tap from in-app Settings → Account → Delete account. This removes your records from our backend and closes the bank connections you linked. iCloud-synced data is removed from your iCloud when you delete the app and clear its data from your Apple Account.
 - **Disconnect** individual bank connections at any time without deleting your account.
 - **Object** to any data processing — write to legal@khassinx.com.
 - **Portability** — your data is yours; to request a copy, email [`legal@khassinx.com`](mailto:legal@khassinx.com).
