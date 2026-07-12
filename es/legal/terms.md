@@ -52,10 +52,10 @@ Para funcionar, Khazen necesita conectarse a tus cuentas bancarias. Al conectar 
 
 ## 4. Suscripción, prueba gratuita y renovación
 
-Khazen se ofrece como **suscripción**. Los precios y planes se muestran en la app y en la ficha del App Store. Las suscripciones se renuevan automáticamente bajo tu Apple ID hasta que canceles.
+Khazen se ofrece como **suscripción**. Los precios y planes se muestran en la app y en la ficha del App Store. Las suscripciones se renuevan automáticamente bajo tu Cuenta de Apple hasta que canceles.
 
 - **Prueba gratuita**: siete días. Sin cargos durante la prueba. Te enviamos una notificación local en el dispositivo antes de que termine para que decidas si continuar.
-- **Renovación**: se carga a tu Apple ID al inicio de cada período de facturación. Puedes cambiar de plan o cancelar desde Ajustes → Apple ID → Suscripciones en tu dispositivo.
+- **Renovación**: se carga a tu Cuenta de Apple al inicio de cada período de facturación. Puedes cambiar de plan o cancelar desde Ajustes → tu nombre → Suscripciones en tu dispositivo.
 - **Reembolsos**: los maneja Apple. Solicítalos desde tu historial de compras del App Store. No podemos otorgar ni denegar reembolsos directamente porque no procesamos pagos.
 - **Cambios de precio**: cualquier cambio en el precio de una suscripción existente se te comunica con antelación, con la opción de cancelar sin penalización antes de que el nuevo precio aplique, según las políticas de Apple.
 
@@ -121,7 +121,7 @@ Podemos descontinuar o modificar materialmente funciones en cualquier momento. D
 
 Puedes dejar de usar Khazen cuando quieras:
 
-- Cancelando tu suscripción (Ajustes → Apple ID → Suscripciones)
+- Cancelando tu suscripción (Ajustes → tu nombre → Suscripciones)
 - Eliminando tu cuenta desde Ajustes → Cuenta → Borrar cuenta de Khazen (elimina tus registros de nuestro backend)
 - Borrando la app de tu dispositivo
 

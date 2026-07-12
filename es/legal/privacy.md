@@ -33,7 +33,7 @@ Puedes desconectar cualquier banco cuando quieras. Puedes borrar tu cuenta con u
 | Categoría | ¿Se recopila? | Para qué |
 |---|---|---|
 | Datos de cuentas bancarias (saldos, transacciones, nombres de cuenta) | ✅ Sí | Para que la app muestre tu dinero |
-| Identificador de Apple ID (opaco, para sync) | ✅ Sí | Sincronizar entre tus dispositivos vía iCloud |
+| Identificador de Cuenta de Apple (opaco, para sync) | ✅ Sí | Sincronizar entre tus dispositivos vía iCloud |
 | Correo electrónico | Solo si nos escribes | Responderte el mensaje |
 | Estado de suscripción | ✅ Sí (vía Apple) | Verificar acceso a funciones pagas |
 | Token de notificaciones push del dispositivo | ✅ Sí | Enviarte solo las notificaciones que activas |
@@ -61,13 +61,13 @@ Plaid es un servicio independiente; el tratamiento de tu información se rige po
 
 | Qué | Dónde |
 |---|---|
-| Transacciones, cuentas, presupuestos, metas, detección de recurrencias | Almacén local SwiftData en tu dispositivo + **tu iCloud personal** (cifrado, tu Apple ID) |
+| Transacciones, cuentas, presupuestos, metas, detección de recurrencias | Almacén local SwiftData en tu dispositivo + **tu iCloud personal** (cifrado, tu Cuenta de Apple) |
 | Tokens de conexión bancaria (tokens de acceso de Plaid) | Cifrados en reposo en nuestro backend + en el Llavero (Keychain) del dispositivo |
 | Estado de suscripción | Verificado localmente vía Apple StoreKit 2 + cruce contra servidor |
-| Tokens de push | Tabla del backend indexada por tu identificador opaco de Apple ID |
+| Tokens de push | Tabla del backend indexada por tu identificador opaco de Cuenta de Apple |
 | Preferencias de la app (categorías, moneda, tema) | Local + iCloud Key-Value Store |
 
-La sincronización de iCloud usa **tu** Apple ID. Nosotros nunca vemos, accedemos ni tenemos forma de recuperar los datos sincronizados por iCloud. Apple los cifra en tránsito y en reposo. Si borras la app y eliminas los datos de iCloud, esa copia desaparece. Lo único que conservamos en nuestros propios servidores es el token de conexión bancaria necesario para actualizar tus transacciones — acotado a ese fin, y lo revocamos cuando desconectas el banco o borras tu cuenta.
+La sincronización de iCloud usa **tu** Cuenta de Apple. Nosotros nunca vemos, accedemos ni tenemos forma de recuperar los datos sincronizados por iCloud. Apple los cifra en tránsito y en reposo. Si borras la app y eliminas los datos de iCloud, esa copia desaparece. Lo único que conservamos en nuestros propios servidores es el token de conexión bancaria necesario para actualizar tus transacciones — acotado a ese fin, y lo revocamos cuando desconectas el banco o borras tu cuenta.
 
 ## Proveedores de servicios
 
@@ -104,11 +104,11 @@ Apple Intelligence requiere iOS 26+ y un dispositivo reciente. En dispositivos s
 
 Las suscripciones se procesan vía **Apple StoreKit 2**. Recibimos solo:
 
-- Un booleano: este Apple ID tiene una suscripción activa (vía `Transaction.currentEntitlements`)
+- Un booleano: esta Cuenta de Apple tiene una suscripción activa (vía `Transaction.currentEntitlements`)
 - El producto actual (plan mensual o anual)
 - Las fechas de renovación y revocación (para honrar cancelaciones y reembolsos rápidamente)
 
-**No** vemos tu nombre, método de pago, dirección de facturación ni ningún otro metadato de compra. Apple maneja todo eso. Los reembolsos y la gestión de la suscripción pasan directamente por Apple (Ajustes → Apple ID → Suscripciones).
+**No** vemos tu nombre, método de pago, dirección de facturación ni ningún otro metadato de compra. Apple maneja todo eso. Los reembolsos y la gestión de la suscripción pasan directamente por Apple (Ajustes → tu nombre → Suscripciones).
 
 Prueba gratuita: siete días, sin cargos automáticos durante la prueba. Te enviamos notificaciones locales antes de que termine la prueba para que no haya renovaciones sorpresa.
 
@@ -116,7 +116,7 @@ Prueba gratuita: siete días, sin cargos automáticos durante la prueba. Te envi
 
 ## Notificaciones y correo
 
-- **Notificaciones push**: opt-in. Si las habilitas, tu dispositivo recibe un token de Apple Push Notification que guardamos asociado a tu identificador opaco de Apple ID. Las notificaciones se limitan estrictamente a lo que actives en la app (alertas de presupuesto, saldo bajo, etc.). No enviamos pushes de marketing.
+- **Notificaciones push**: opt-in. Si las habilitas, tu dispositivo recibe un token de Apple Push Notification que guardamos asociado a tu identificador opaco de Cuenta de Apple. Las notificaciones se limitan estrictamente a lo que actives en la app (alertas de presupuesto, saldo bajo, etc.). No enviamos pushes de marketing.
 - **Correo**: si nos escribes a cualquier dirección `@khassinx.com`, recibimos tu mensaje y tu dirección de respuesta vía nuestro proveedor de correo. Conservamos esa correspondencia para manejar la conversación y los seguimientos. No te agregamos a ninguna lista. Khazen no tiene lista de correo.
 
 ## Privacidad de menores
@@ -128,7 +128,7 @@ Khazen está dirigida a usuarios **de 13 años o más** (clasificación del App 
 Tienes derecho a:
 
 - **Acceder** a tus datos — visibles en la app en todo momento.
-- **Borrar** tu cuenta — un solo toque desde Ajustes → Cuenta → Borrar cuenta en la app. Esto elimina tus registros de nuestro backend y cierra las conexiones bancarias que vinculaste. Los datos sincronizados por iCloud se eliminan cuando borras la app y limpias sus datos de iCloud en tu Apple ID.
+- **Borrar** tu cuenta — un solo toque desde Ajustes → Cuenta → Borrar cuenta en la app. Esto elimina tus registros de nuestro backend y cierra las conexiones bancarias que vinculaste. Los datos sincronizados por iCloud se eliminan cuando borras la app y limpias sus datos de iCloud en tu Cuenta de Apple.
 - **Desconectar** conexiones bancarias individuales cuando quieras, sin borrar tu cuenta.
 - **Oponerte** a cualquier procesamiento — escríbenos a legal@khassinx.com.
 - **Portabilidad** — tus datos son tuyos; para pedir una copia, escribe a [`legal@khassinx.com`](mailto:legal@khassinx.com).

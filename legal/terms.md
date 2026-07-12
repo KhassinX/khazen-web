@@ -54,10 +54,10 @@ To work, Khazen needs to connect to your bank accounts. By connecting an account
 
 ## 4. Subscription, free trial, and renewal
 
-Khazen is offered as a **subscription**. Pricing and tiers are displayed in-app and on the App Store listing. Subscriptions auto-renew under your Apple ID until you cancel.
+Khazen is offered as a **subscription**. Pricing and tiers are displayed in-app and on the App Store listing. Subscriptions auto-renew under your Apple Account until you cancel.
 
 - **Free trial**: seven days. No charge during the trial. We send a local notification on the device before the trial ends so you can decide whether to continue.
-- **Renewal**: charged to your Apple ID at the start of each billing period. You can change the plan or cancel from Settings → Apple ID → Subscriptions on your device.
+- **Renewal**: charged to your Apple Account at the start of each billing period. You can change the plan or cancel from Settings → your name → Subscriptions on your device.
 - **Refunds**: handled entirely by Apple. Request through your App Store purchase history. We have no ability to grant or deny refunds directly because we do not process payments.
 - **Pricing changes**: any change to the price of an existing subscription is communicated to you in advance with the option to cancel without penalty before the new price applies, per Apple's policies.
 
@@ -123,7 +123,7 @@ We may discontinue or materially modify features at any time. We will give reaso
 
 You may stop using Khazen at any time by:
 
-- Cancelling your subscription (Settings → Apple ID → Subscriptions)
+- Cancelling your subscription (Settings → your name → Subscriptions)
 - Deleting your account from Khazen's Settings → Account → Delete account (removes your records from our backend)
 - Deleting the app from your device
 
