@@ -33,3 +33,7 @@ Short aliases: [/privacy/](/legal/privacy/) · [/terms/](/legal/terms/)
 These legal documents are released under **CC0 1.0** (public domain dedication) — feel free to adapt for your own personal-finance apps. They reflect a privacy-first, subscription-based architecture that may not apply to apps with different data practices.
 
 The Khazen app itself is **proprietary** and not covered by this CC0 dedication.
+
+## Trademarks
+
+Apple, iPhone, iPad, Mac, Apple Watch, App Store, iCloud, iPadOS, macOS, and watchOS are trademarks of Apple Inc., registered in the U.S. and other countries. Apple Intelligence and Liquid Glass are trademarks of Apple Inc. IOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license. KhassinX and Khazen are trademarks of KHASSINX LLC. All other trademarks are the property of their respective owners.
