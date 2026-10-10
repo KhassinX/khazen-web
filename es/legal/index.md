@@ -36,4 +36,4 @@ La app de Khazen en sí es **propietaria** y no está cubierta por esta dedicaci
 
 ## Marcas comerciales
 
-Apple, iPhone, iPad, Mac, Apple Watch, App Store, iCloud, iPadOS, macOS y watchOS son marcas comerciales de Apple Inc., registradas en EE. UU. y otros países. Apple Intelligence y Liquid Glass son marcas comerciales de Apple Inc. IOS es una marca comercial o marca registrada de Cisco en EE. UU. y otros países y se utiliza bajo licencia. KhassinX y Khazen son marcas comerciales de KHASSINX LLC. Las demás marcas comerciales pertenecen a sus respectivos propietarios.
+Apple, iPhone, iPad, Mac, Apple Watch, App Store, iCloud, iPadOS, macOS y watchOS son marcas comerciales de Apple Inc., registradas en EE. UU. y otros países. Apple Intelligence y Liquid Glass son marcas comerciales de Apple Inc. IOS es una marca comercial o marca registrada de Cisco en EE. UU. y otros países y se utiliza bajo licencia. KHASSINX y Khazen son marcas comerciales de KHASSINX LLC. Las demás marcas comerciales pertenecen a sus respectivos propietarios.

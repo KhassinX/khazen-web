@@ -135,7 +135,7 @@ Tienes derecho a:
 
 **Residentes de California:** **no vendemos ni compartimos** tu información personal (según la definen la CCPA/CPRA), y no lo hemos hecho en los últimos 12 meses. Para ejercer los derechos de privacidad de California, escribe a [`legal@khassinx.com`](mailto:legal@khassinx.com).
 
-Para conocer el conjunto completo de derechos según tu región — la UE/EEE (RGPD), el Reino Unido, España (LOPDGDD), California (CCPA/CPRA), otros estados de EE. UU. y el resto del mundo — y cómo se aplican, consulta los [Derechos de Privacidad](https://khassinx.com/es/legal/your-rights/) de KhassinX. Para ejercer cualquiera de ellos en Khazen, usa los controles dentro de la app o escribe a [`legal@khassinx.com`](mailto:legal@khassinx.com).
+Para conocer el conjunto completo de derechos según tu región — la UE/EEE (RGPD), el Reino Unido, España (LOPDGDD), California (CCPA/CPRA), otros estados de EE. UU. y el resto del mundo — y cómo se aplican, consulta los [Derechos de Privacidad](https://khassinx.com/es/legal/your-rights/) de KHASSINX. Para ejercer cualquiera de ellos en Khazen, usa los controles dentro de la app o escribe a [`legal@khassinx.com`](mailto:legal@khassinx.com).
 
 ## Etiquetas de Privacidad de Apple
 
