@@ -53,6 +53,7 @@
 
   {%- comment -%} iOS Add to Home Screen / PWA metadata (Apple HIG) {%- endcomment -%}
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="{{ site.og_site_name | default: site.title }}">
 
@@ -99,7 +100,7 @@
 </main>
 <footer class="foot">
   <div class="wrap foot-row">
-    <p>© {{ 'now' | date: '%Y' }} KHASSINX LLC · <a href="{{ ux.umbrella_url }}">{{ ux.part_of }}</a></p>
+    <p>© {{ 'now' | date: '%Y' }} <a href="{{ ux.umbrella_url }}">KHASSINX LLC</a></p>
     <nav aria-label="{{ ux.nav_footer }}">
       {%- for item in footer_items %}
       <a href="{{ item.url }}">{{ item.title }}</a>
