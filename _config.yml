@@ -27,19 +27,7 @@ twitter_card: summary_large_image
 org:
   name: KHASSINX
 
-# Navigation — keyed per locale. base.html selects via page.lang con fallback a 'en'.
-nav:
-  en:
-    - title: Legal
-      url: /legal/
-    - title: Support
-      url: /support/
-  es:
-    - title: Legal
-      url: /es/legal/
-    - title: Soporte
-      url: /es/support/
-
+# Navigation — keyed per locale. Sin nav: el encabezado es sólo el wordmark: cada destino ya está en el pie.
 footer_nav:
   en:
     - title: Privacy
