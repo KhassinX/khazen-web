@@ -1,10 +1,23 @@
 ---
 layout: base
 ---
-
-<article class="container container-narrow prose" style="padding-top: var(--space-3xl); padding-bottom: var(--space-3xl);">
-  {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-  {% if page.updated %}<p class="text-tertiary"><small>Last updated: {{ page.updated }}</small></p>{% endif %}
-
-  {{ content }}
+{%- assign lang_key = page.lang | default: site.lang | default: 'en' -%}
+{%- assign ux = site.ui_theme[lang_key] | default: site.ui_theme.en -%}
+{%- capture meta %}{% if page.updated %}
+  <p class="meta">{{ ux.last_updated }}: {{ page.updated }}</p>{% endif %}{% endcapture -%}
+{%- comment -%} A page whose Markdown already opens with its own # title keeps that one h1, with the date under it. {%- endcomment %}
+<article class="doc wrap">
+  {%- if content contains '<h1' %}
+  {%- capture tail %}</h1>{{ meta }}{% endcapture %}
+  <div class="doc-body prose">
+{{ content | replace_first: '</h1>', tail }}
+  </div>
+  {%- else %}
+  {%- if page.title %}
+  <h1>{{ page.title }}</h1>
+  {%- endif %}{{ meta }}
+  <div class="doc-body prose">
+{{ content }}
+  </div>
+  {%- endif %}
 </article>

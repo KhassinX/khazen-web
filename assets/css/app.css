@@ -1,0 +1,52 @@
+/* Page parts of an app site on the portfolio design system. Layer 1 (tokens.css) and Layer 3
+   (primitives.css) are byte-identical copies of khassinx.com; the app color lives in Layer 2. */
+
+.wordmark { gap: var(--khassinx-s-3); font-weight: 600; }
+.wordmark img { display: block; width: 32px; height: 32px; border-radius: 7px; }
+.tm { font-size: 0.62em; vertical-align: 0.35em; font-weight: 500; margin-left: 0.04em; }
+
+.action.ghost { background: transparent; color: var(--khassinx-accent-text); border-color: currentColor; }
+.action.ghost:hover { background: color-mix(in oklab, var(--khassinx-accent) 14%, transparent); }
+.cta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--khassinx-s-3); }
+.cta .action { padding-block: var(--khassinx-s-2); line-height: 1.25; }
+
+.eyebrow { font-family: var(--font-mono); font-size: var(--khassinx-t-meta); letter-spacing: 0.04em; color: var(--khassinx-accent-text); }
+
+/* Home */
+.hero > .wrap, .hero.wrap { padding-block: var(--khassinx-s-7); }
+.hero h1 { max-width: 16em; font-weight: var(--khassinx-w-display); }
+.hero .eyebrow + h1, .hero h1 + .lead { margin-top: var(--khassinx-s-4); }
+.hero .lead { max-width: var(--khassinx-measure); color: var(--khassinx-ink-2); }
+.hero .cta, .hero .lead + p { margin-top: var(--khassinx-s-5); }
+
+.section { padding-block: var(--khassinx-s-7); border-top: 1px solid var(--khassinx-rule); }
+.section-tinted { background: var(--khassinx-surface); }
+.section > .wrap { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: var(--khassinx-s-5) var(--khassinx-s-6); align-items: start; }
+.section > .wrap > * { grid-column: 2; }
+.section > .wrap > h2 { grid-column: 1; grid-row: 1 / span 2; }
+.section-lead { max-width: var(--khassinx-measure); }
+
+.cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 0 var(--khassinx-s-6); border-top: 1px solid var(--khassinx-rule); }
+.card { padding-block: var(--khassinx-s-5); border-bottom: 1px solid var(--khassinx-rule); }
+.card p { margin-top: var(--khassinx-s-2); color: var(--khassinx-ink-2); }
+
+/* Narrow pages: support, contact, security, 404 */
+.narrow > * { max-width: var(--khassinx-doc); }
+.narrow:not(.section > .wrap) { padding-block: var(--khassinx-s-7) var(--khassinx-s-8); }
+.narrow > * + * { margin-top: var(--khassinx-s-4); }
+.narrow h2 { margin-top: var(--khassinx-s-6); }
+.narrow li > a:only-child { display: inline-flex; align-items: center; min-height: 44px; }
+.narrow h1 { font-size: var(--khassinx-t-title); line-height: 1.08; letter-spacing: -0.03em; overflow-wrap: break-word; }
+.section > .wrap.narrow > * + * { margin-top: 0; }
+.section > .wrap.narrow > h2 { margin-top: 0; }
+
+/* Legal and help pages */
+.callout { padding: var(--khassinx-s-5); background: var(--khassinx-surface); border: 1px solid var(--khassinx-rule); border-radius: var(--khassinx-r-action); }
+.prose h3 { margin-top: var(--khassinx-s-6); }
+.prose blockquote { margin: 0; padding-left: var(--khassinx-s-4); border-left: 2px solid var(--khassinx-rule); color: var(--khassinx-ink-2); }
+.prose hr { border: 0; border-top: 1px solid var(--khassinx-rule); }
+
+@media (max-width: 767px) {
+  .section > .wrap { grid-template-columns: minmax(0, 1fr); }
+  .section > .wrap > *, .section > .wrap > h2 { grid-column: 1; grid-row: auto; }
+}

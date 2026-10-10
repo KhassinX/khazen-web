@@ -137,7 +137,7 @@ You have the right to:
 
 **California residents:** we **do not sell or share** your personal information (as those terms are defined under the CCPA/CPRA), and have not in the past 12 months. To exercise California privacy rights, email [`legal@khassinx.com`](mailto:legal@khassinx.com).
 
-For the full set of region-specific rights — the EU/EEA (GDPR), the UK, Spain (LOPDGDD), California (CCPA/CPRA), other US states, and the rest of the world — and how they apply, see KhassinX's [Privacy Rights](https://khassinx.com/legal/your-rights/). To exercise any of them for Khazen, use the in-app controls above or email [`legal@khassinx.com`](mailto:legal@khassinx.com).
+For the full set of region-specific rights — the EU/EEA (GDPR), the UK, Spain (LOPDGDD), California (CCPA/CPRA), other US states, and the rest of the world — and how they apply, see KHASSINX's [Privacy Rights](https://khassinx.com/legal/your-rights/). To exercise any of them for Khazen, use the in-app controls above or email [`legal@khassinx.com`](mailto:legal@khassinx.com).
 
 ## Apple App Privacy Nutrition Labels
 

@@ -22,9 +22,9 @@ og_image_alt: "Khazen — private personal finance for Apple platforms"
 og_image_alt_es: "Khazen — finanzas personales privadas para plataformas Apple"
 twitter_card: summary_large_image
 
-# JSON-LD (SoftwareApplication, publisher KhassinX)
+# JSON-LD (SoftwareApplication, publisher KHASSINX)
 org:
-  name: KhassinX
+  name: KHASSINX
 
 # Navigation — keyed per locale. base.html selects via page.lang con fallback a 'en'.
 nav:
@@ -71,11 +71,11 @@ footer_nav:
 ui_strings:
   en:
     skip_to_main: "Skip to main content"
-    ecosystem_label: "A KhassinX app"
+    ecosystem_label: "A KHASSINX app"
     ecosystem_url: "https://khassinx.com"
   es:
     skip_to_main: "Saltar al contenido principal"
-    ecosystem_label: "Una app de KhassinX"
+    ecosystem_label: "Una app de KHASSINX"
     ecosystem_url: "https://khassinx.com/es/"
 
 # Jekyll config
@@ -94,3 +94,32 @@ exclude:
 # (RFC 9116 security.txt requiere path exacto /.well-known/security.txt).
 include:
   - .well-known
+
+# Portfolio design system (2026-10): header icon and chrome strings, read by _layouts/base.html and prose.html.
+header_icon: /assets/favicons/icon-192.png
+header_tm: false
+ui_theme:
+  en:
+    skip_to_main: "Skip to main content"
+    nav_primary: "Main"
+    nav_footer: "Footer"
+    lang_selector: "Language selector"
+    part_of: "A KHASSINX app"
+    umbrella_url: "https://khassinx.com/"
+    last_updated: "Last updated"
+    theme: "Theme"
+    theme_system: "System"
+    theme_light: "Light"
+    theme_dark: "Dark"
+  es:
+    skip_to_main: "Saltar al contenido principal"
+    nav_primary: "Principal"
+    nav_footer: "Pie de página"
+    lang_selector: "Selector de idioma"
+    part_of: "Una app de KHASSINX"
+    umbrella_url: "https://khassinx.com/es/"
+    last_updated: "Última actualización"
+    theme: "Tema"
+    theme_system: "Sistema"
+    theme_light: "Claro"
+    theme_dark: "Oscuro"
