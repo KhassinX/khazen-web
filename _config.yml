@@ -1,6 +1,6 @@
 title: Khazen
 short_name: Khazen
-description: A modern, private personal finance app for Apple platforms. On-device intelligence, honest pricing, native iPhone, iPad, Apple Watch, and Mac.
+description: "Khazen. A personal finance app. Coming to the App Store."
 url: https://khazen.khassinx.com
 lang: en
 
@@ -19,8 +19,8 @@ og_image: /assets/og/og-image.png
 og_image_es: /assets/og/og-image-es.png
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: "Khazen — private personal finance for Apple platforms"
-og_image_alt_es: "Khazen — finanzas personales privadas para plataformas Apple"
+og_image_alt: "Khazen. A personal finance app. Coming to the App Store."
+og_image_alt_es: "Khazen. Una app de finanzas personales. Pronto en el App Store."
 twitter_card: summary_large_image
 
 # JSON-LD (SoftwareApplication, publisher KHASSINX)
