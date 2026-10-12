@@ -7,7 +7,7 @@ lang: en
 # Layer 2 brand tokens (Khazen specific) extending Layer 3 primitives
 app_tokens_css: /assets/css/khazen-tokens.css
 
-# Favicons — SVG monogram + PNG fallbacks
+# Favicons: SVG monogram + PNG fallbacks
 favicon_svg: /assets/favicons/favicon.svg
 favicon_32: /assets/favicons/favicon-32.png
 favicon_16: /assets/favicons/favicon-16.png
@@ -27,7 +27,7 @@ twitter_card: summary_large_image
 org:
   name: KHASSINX
 
-# Navigation — keyed per locale. Sin nav: el encabezado es sólo el wordmark: cada destino ya está en el pie.
+# Navigation: keyed per locale. Sin nav: el encabezado es sólo el wordmark: cada destino ya está en el pie.
 footer_nav:
   en:
     - title: Privacy
