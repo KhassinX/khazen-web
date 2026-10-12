@@ -1,6 +1,6 @@
 ---
 layout: prose
-title: Khazen — Legal
+title: Legal
 permalink: /legal/
 lang: en
 canonical_en: /legal/
