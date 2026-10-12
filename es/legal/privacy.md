@@ -1,6 +1,6 @@
 ---
 layout: prose
-title: Política de Privacidad
+title: Política de privacidad
 permalink: /es/legal/privacy/
 lang: es
 canonical_en: /legal/privacy/
@@ -11,7 +11,7 @@ redirect_from:
 updated: 2026-07-11
 ---
 
-# Política de Privacidad — Khazen
+# Política de privacidad de Khazen
 
 **Fecha de vigencia**: 2026-06-09
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
