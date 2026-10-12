@@ -13,7 +13,7 @@ redirect_from:
 updated: 2026-07-11
 ---
 
-# Terms of Use — Khazen
+# Terms of Use
 
 **Effective date**: 2026-06-09
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))

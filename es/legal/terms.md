@@ -1,6 +1,6 @@
 ---
 layout: prose
-title: Términos de Uso
+title: Términos de uso
 permalink: /es/legal/terms/
 lang: es
 canonical_en: /legal/terms/
@@ -11,7 +11,7 @@ redirect_from:
 updated: 2026-07-11
 ---
 
-# Términos de Uso — Khazen
+# Términos de uso
 
 **Fecha de vigencia**: 2026-06-09
 **App**: Khazen ([App Store](https://apps.apple.com/app/khazen/id6761610239))
